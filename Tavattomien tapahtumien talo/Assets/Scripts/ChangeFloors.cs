@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
@@ -6,21 +5,9 @@ using UnityEngine;
 public class ChangeFloors : MonoBehaviour
 {
     [SerializeField] private List<CinemachineCamera> floors = new List<CinemachineCamera>();
-    private int currentFloorIndex;
+    private int currentFloorIndex = 1;
     [SerializeField] GameObject upArrow;
     [SerializeField] GameObject downArrow;
-
-
-    void Start()
-    {
-        
-    }
-
-
-    void Update()
-    {
-        
-    }
 
     public void ChangeFloor(int chosenFloor)
     {

@@ -3,20 +3,39 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public bool PreventInteraction()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Tab))
+        {
+            return true; 
+        }
+        return false; 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ManageAudio(bool audioStatus)
     {
-        
+        if (PreventInteraction())
+        {
+            return; 
+        }
+        GameData.Instance.isAudioMuted = audioStatus;
     }
 
     public void ChangeScene(int scene)
     {
+        if (PreventInteraction())
+        {
+            return; 
+        }
         SceneManager.LoadScene(scene);
+    }
+
+    public void CloseGame()
+    {
+        if (PreventInteraction())
+        {
+            return;
+        }
+        Application.ExternalEval("window.close();");
     }
 }
