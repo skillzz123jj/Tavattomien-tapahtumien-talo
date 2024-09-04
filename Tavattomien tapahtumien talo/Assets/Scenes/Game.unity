@@ -413,8 +413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 45039617}
-  spriteToFitTo: {fileID: 2045500545}
-  actualSprite: {fileID: 26315702}
+  spriteSize: {fileID: 2045500545}
+  SpriteToFitTo: {fileID: 26315702}
 --- !u!1 &301364239
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,8 +755,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 429397871}
-  spriteToFitTo: {fileID: 2045500545}
-  actualSprite: {fileID: 31830743}
+  spriteSize: {fileID: 2045500545}
+  SpriteToFitTo: {fileID: 31830743}
 --- !u!1 &544657777
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,8 +994,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 579450960}
-  spriteToFitTo: {fileID: 2045500545}
-  actualSprite: {fileID: 369127418}
+  spriteSize: {fileID: 2045500545}
+  SpriteToFitTo: {fileID: 369127418}
 --- !u!1 &642610499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,8 +1204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 676778008}
-  spriteToFitTo: {fileID: 2045500545}
-  actualSprite: {fileID: 2045500545}
+  spriteSize: {fileID: 2045500545}
+  SpriteToFitTo: {fileID: 2045500545}
 --- !u!1 &779259101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,8 +1671,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1346212331}
-  spriteToFitTo: {fileID: 2045500545}
-  actualSprite: {fileID: 779259102}
+  spriteSize: {fileID: 2045500545}
+  SpriteToFitTo: {fileID: 779259102}
 --- !u!1 &1400049881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,6 +1795,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14a9d80b0750254fa6e9f911ba71d13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}
+  stopAudioButton: {fileID: 0}
 --- !u!1 &1540836227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2980,8 +2982,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1942536437}
-  spriteToFitTo: {fileID: 2045500545}
-  actualSprite: {fileID: 642610500}
+  spriteSize: {fileID: 2045500545}
+  SpriteToFitTo: {fileID: 642610500}
 --- !u!1 &2045500544
 GameObject:
   m_ObjectHideFlags: 0

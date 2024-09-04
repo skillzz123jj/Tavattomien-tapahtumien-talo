@@ -2,7 +2,8 @@ public class GameData
 {
     private static GameData instance;
 
-    public bool isAudioMuted;
+    public bool isAudioMuted { get; set; }
+    public bool hintsEnabled { get; set; }
 
     private GameData() { }
 

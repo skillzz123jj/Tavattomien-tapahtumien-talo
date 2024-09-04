@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class IterateButtons : MonoBehaviour
 {
     [SerializeField] List<Button> buttons = new List<Button>();
-    int nextIndex = 0;
+    int nextIndex = -1;
 
     void Update()
     {
@@ -19,5 +19,14 @@ public class IterateButtons : MonoBehaviour
 
             buttons[nextIndex].Select();
         }
+    }
+
+    public void SkipIndex()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Tab))
+        {
+            return;
+        }
+        nextIndex++;
     }
 }
