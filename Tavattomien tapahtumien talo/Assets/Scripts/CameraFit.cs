@@ -46,7 +46,7 @@ public class CameraFit : MonoBehaviour
         // Set the orthographic size of the camera
         cam.Lens.OrthographicSize = orthographicSize;
 
-        if (gameObject.name == "Attic")
+        if (gameObject.name == "AtticCamera")
         {
             float offsetY = orthographicSize - baseSpriteBounds.extents.y;
             cam.transform.position = new Vector3(

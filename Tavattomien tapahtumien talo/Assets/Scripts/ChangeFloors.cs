@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangeFloors : MonoBehaviour
 {
@@ -37,6 +38,11 @@ public class ChangeFloors : MonoBehaviour
         currentFloorIndex--;
         ChangeFloor(currentFloorIndex);
 
+    }
+
+    public void ChangeColor(Image image)
+    {
+        image.color = Color.white;
     }
 
     private void CheckFloorStatus()
