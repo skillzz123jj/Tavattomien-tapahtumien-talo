@@ -7,6 +7,20 @@ public class Menu : MonoBehaviour
 {
     [SerializeField] AudioSource _audioSource;
     [SerializeField] Button stopAudioButton;
+    [SerializeField] GameObject muteAudioButton;
+    [SerializeField] GameObject unmuteAudioButton;
+
+    private void Start()
+    {
+        if (GameData.Instance.isAudioMuted)
+        {
+            unmuteAudioButton.SetActive(true);
+            unmuteAudioButton.GetComponent<Button>().interactable = true;
+
+            muteAudioButton.SetActive(false);
+            muteAudioButton.GetComponent<Button>().interactable = false;
+        }
+    }
     public bool CheckInput()
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Tab))
@@ -23,7 +37,7 @@ public class Menu : MonoBehaviour
             return; 
         }
         GameData.Instance.isAudioMuted = audioStatus;
-        AudioListener.volume = audioStatus == false ? 0f : 1f;
+        AudioListener.volume = audioStatus == false ? 1f : 0f;
     }
 
     public void ChangeScene(int scene)
