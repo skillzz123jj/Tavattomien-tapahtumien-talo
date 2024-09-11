@@ -1,10 +1,16 @@
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ShowHints : MonoBehaviour
 {
     [SerializeField] private GameObject hintsDisabledBox;
     [SerializeField] private GameObject hintsEnabledBox;
-    [SerializeField] private GameObject hint1Box;
+
+    [SerializeField] private TMP_Text hint1Text;
+    [SerializeField] private TMP_Text hint2Text;
+    [SerializeField] private TMP_Text hint3Text;
+    [SerializeField] private List<Items> items = new List<Items>();
 
 
     void Start()
@@ -20,18 +26,20 @@ public class ShowHints : MonoBehaviour
             hintsDisabledBox.SetActive(true);
 
         }
-
-
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChooseHint()
     {
-        
+        int index = Random.Range(0, items.Count);
+        Items chosenItem = items[index];
+        ShowHint(chosenItem);
     }
 
-    public void ActivateHintCard()
+    public void ShowHint(Items item)
     {
-        hint1Box.SetActive(true);
+        hint1Text.text = item.whatKind;
+        hint2Text.text = item.where;
+        hint3Text.text = item.whatDescription;
+
     }
 }
