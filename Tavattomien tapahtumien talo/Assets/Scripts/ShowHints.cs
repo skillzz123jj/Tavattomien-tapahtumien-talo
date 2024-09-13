@@ -1,11 +1,14 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ShowHints : MonoBehaviour
 {
     [SerializeField] private GameObject hintsDisabledBox;
     [SerializeField] private GameObject hintsEnabledBox;
+
+    [SerializeField] private List<GameObject> hints = new List<GameObject>();
 
     [SerializeField] private TMP_Text hint1Text;
     [SerializeField] private TMP_Text hint2Text;
@@ -19,6 +22,7 @@ public class ShowHints : MonoBehaviour
         {
             hintsEnabledBox.SetActive(true);
             hintsDisabledBox.SetActive(false);
+            ChooseHint();
         }
         else
         {
@@ -32,6 +36,13 @@ public class ShowHints : MonoBehaviour
     {
         int index = Random.Range(0, items.Count);
         Items chosenItem = items[index];
+        foreach (var hint in hints)
+        {
+            if (hint.GetComponent<RotateButton>().isRotated)
+            {
+                hint.GetComponent<Button>().onClick.Invoke();
+            }
+        }
         ShowHint(chosenItem);
     }
 

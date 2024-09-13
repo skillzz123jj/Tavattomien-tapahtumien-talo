@@ -58,7 +58,7 @@ public class CameraFit : MonoBehaviour
         }
         else
         {
-            cam.Lens.OrthographicSize = orthographicSize + 0.5f;
+            cam.Lens.OrthographicSize = orthographicSize + 1.5f;
             cam.transform.position = new Vector3(baseSpriteBounds.center.x + 1f, actualSpriteBounds.center.y - 0.5f, cam.transform.position.z);
 
         }

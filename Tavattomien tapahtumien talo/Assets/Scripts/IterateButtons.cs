@@ -15,9 +15,10 @@ public class IterateButtons : MonoBehaviour
             {
                 nextIndex = (nextIndex + 1) % buttons.Count;
             }
-            while (!buttons[nextIndex].interactable);
+            while (!buttons[nextIndex].interactable || !buttons[nextIndex].gameObject.activeSelf);
 
             buttons[nextIndex].Select();
+            Debug.Log(buttons[nextIndex].name);
         }
     }
 

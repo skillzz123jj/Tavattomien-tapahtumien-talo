@@ -9,7 +9,7 @@ public class RotateButton : MonoBehaviour
     public GameObject hint;
 
     private bool isRotating = false;
-    private bool isRotated = false;
+    public bool isRotated = false;
     private float rotationDuration = 1f; 
 
     public void TriggerRotation()
