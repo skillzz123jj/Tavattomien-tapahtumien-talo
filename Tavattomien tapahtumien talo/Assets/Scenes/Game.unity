@@ -186,7 +186,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.9492054, y: 1.7867723}
+  m_Offset: {x: 2.294548, y: 1.7422123}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -196,7 +196,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9.400148, y: 1.6033258}
+  m_Size: {x: 14.502304, y: 7.0396843}
   m_EdgeRadius: 0
 --- !u!1 &26315701
 GameObject:
@@ -859,7 +859,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &215066029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1045,7 +1045,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 3.0991478, y: -1.3814697}
+  m_Offset: {x: 3.0991478, y: -1.0083351}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1055,7 +1055,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 11.213493, y: 2.0932465}
+  m_Size: {x: 11.213493, y: 5.504753}
   m_EdgeRadius: 0
 --- !u!1 &301364239
 GameObject:
@@ -1304,6 +1304,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1697152203}
+          m_TargetAssemblyTypeName: ChangeFloors, Assembly-CSharp
+          m_MethodName: ChangeColor
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 301364241}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &304042099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1316,7 +1332,6 @@ GameObject:
   - component: {fileID: 304042104}
   - component: {fileID: 304042103}
   - component: {fileID: 304042101}
-  - component: {fileID: 304042102}
   - component: {fileID: 304042100}
   m_Layer: 5
   m_Name: Ohjeet
@@ -1438,18 +1453,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &304042102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 304042099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &304042103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1813,7 +1816,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &464254391
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2602,9 +2605,9 @@ RectTransform:
   - {fileID: 1623181642}
   m_Father: {fileID: 7319165581448093394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 838.8, y: -1.9}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -121.20001, y: -58.55}
   m_SizeDelta: {x: 112, y: 478.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &579092071
@@ -3576,7 +3579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &732013222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3820,18 +3823,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1420748145}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: Select
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: IterateButtons, Assembly-CSharp
-        m_MethodName: SkipIndex
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4227,7 +4218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &826162178
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4518,7 +4509,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &874023309
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5613,7 +5604,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.6043777, y: -0.46420383}
+  m_Offset: {x: 1.6272049, y: -0.46420336}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5623,7 +5614,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9.577377, y: 1.9284077}
+  m_Size: {x: 14.416519, y: 6.2197237}
   m_EdgeRadius: 0
 --- !u!1 &973464009
 GameObject:
@@ -5864,7 +5855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -45.13639, y: 113.46875}
+  m_AnchoredPosition: {x: -45.13639, y: 105.5}
   m_SizeDelta: {x: 1358.7, y: 167}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1064463256
@@ -5920,7 +5911,6 @@ MonoBehaviour:
   buttons:
   - {fileID: 1685744192}
   - {fileID: 1911450144}
-  - {fileID: 874023311}
   - {fileID: 1540836229}
   - {fileID: 1816912223}
   - {fileID: 1914738718}
@@ -6234,7 +6224,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -45.13639, y: 113.46875}
+  m_AnchoredPosition: {x: -45.13639, y: 105.5}
   m_SizeDelta: {x: 1278.6329, y: 94.278625}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1137850444
@@ -6290,7 +6280,6 @@ MonoBehaviour:
   buttons:
   - {fileID: 1685744192}
   - {fileID: 1911450144}
-  - {fileID: 874023311}
   - {fileID: 1540836229}
   - {fileID: 1816912223}
   - {fileID: 1914738718}
@@ -6598,7 +6587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc83750902799543b99baec42d8c04b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorButtons:
+  floorButtonsList:
   - {fileID: 301364239}
   - {fileID: 1880924892}
   - {fileID: 1914738716}
@@ -6641,7 +6630,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.66706085, y: 0.39767456}
+  m_Offset: {x: -0.063694, y: 0.04688263}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6651,7 +6640,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 13.212433, y: 3.9505005}
+  m_Size: {x: 1.6221695, y: 1.1160736}
   m_EdgeRadius: 0
 --- !u!50 &1201789676
 Rigidbody2D:
@@ -7333,7 +7322,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.9492054, y: 1.7867723}
+  m_Offset: {x: 2.2813187, y: 1.4812231}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7343,7 +7332,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9.400148, y: 1.6033258}
+  m_Size: {x: 14.2092285, y: 6.571821}
   m_EdgeRadius: 0
 --- !u!1 &1256359572
 GameObject:
@@ -7833,7 +7822,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.14302063, y: 0.47675133}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7843,7 +7832,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9.400148, y: 1.6033258}
+  m_Size: {x: 13.373077, y: 5.353771}
   m_EdgeRadius: 0
 --- !u!1 &1346212328
 GameObject:
@@ -9940,7 +9929,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1516811339}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: CloseGame
         m_Mode: 1
@@ -11242,7 +11231,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.9492054, y: 1.7867723}
+  m_Offset: {x: 2.427452, y: 1.6406384}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11252,7 +11241,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9.400148, y: 1.6033258}
+  m_Size: {x: 14.235794, y: 6.5718193}
   m_EdgeRadius: 0
 --- !u!1 &1880924892
 GameObject:

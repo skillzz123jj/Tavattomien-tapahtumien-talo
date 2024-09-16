@@ -13,7 +13,7 @@ public class Credits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!instructions.activeSelf && Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Tab))
+        if (!instructions.activeSelf && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Tab)))
         {
             closeCredits.onClick.Invoke();
             openCreditsButton.text = $"{openCreditsTextContent}";

@@ -40,9 +40,12 @@ public class ChangeFloors : MonoBehaviour
 
     }
 
-    public void ChangeColor(Image image)
+    public void ChangeColor(Button button)
     {
-        image.color = Color.white;
+
+        button.interactable = false;
+        button.interactable = true;
+
     }
 
     private void CheckFloorStatus()

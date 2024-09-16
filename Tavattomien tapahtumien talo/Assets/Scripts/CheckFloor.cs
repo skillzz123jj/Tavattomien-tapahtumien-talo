@@ -2,18 +2,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class CheckFloor : MonoBehaviour
 {
-    [SerializeField] List<GameObject> floorButtons = new List<GameObject>();
+
+    [SerializeField] private Dictionary<string, GameObject> floorButtons = new Dictionary<string, GameObject>();
+    [SerializeField] private List<GameObject> floorButtonsList = new List<GameObject>();
     private GameObject previousFloor;
-    [SerializeField] GameObject currentFloor;
-    [SerializeField] Color highlightColor;
+    [SerializeField] private GameObject currentFloor;
+    [SerializeField] private Color highlightColor;
 
     void Start()
     {
         previousFloor = currentFloor;
+
+        foreach (var obj in floorButtonsList)
+        {
+            floorButtons.Add(obj.name, obj);
+        }
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Floor"))
@@ -22,19 +29,16 @@ public class CheckFloor : MonoBehaviour
         }
     }
 
-    private void HighlightFloor(string floor)
+    private void HighlightFloor(string floorName)
     {
-       
         previousFloor.GetComponent<Image>().color = Color.white;
-        foreach (GameObject obj in floorButtons)
-        {
-            if (obj.name == floor)
-            {
-                currentFloor = obj;
-                currentFloor.GetComponent<Image>().color = highlightColor;
 
-            }
+        if (floorButtons.TryGetValue(floorName, out GameObject floorButton))
+        {
+            currentFloor = floorButton;
+            currentFloor.GetComponent<Image>().color = highlightColor;
         }
+
         previousFloor = currentFloor;
     }
 }
