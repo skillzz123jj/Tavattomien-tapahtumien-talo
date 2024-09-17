@@ -18,7 +18,7 @@ public class CursorController : MonoBehaviour
 
     void Update()
     {
-        if (hovering || CheckForClickableObjects())
+        if (hovering)
         {
             ChangeCursor(hoverCursor, hotspotHover);
         }
@@ -36,23 +36,4 @@ public class CursorController : MonoBehaviour
     {
         hovering = false;
     }
-
-    bool CheckForClickableObjects()
-    {
-        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
-        if (hit)
-        {
-          
-                if (hit.collider.gameObject.CompareTag("Button"))
-                {
-                    return true;
-                }
-            
-        }
-
-        return false;
-    }
-
 }

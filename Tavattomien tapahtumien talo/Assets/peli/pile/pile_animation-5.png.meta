@@ -129,12 +129,12 @@ TextureImporter:
       name: pile_animation-5_0
       rect:
         serializedVersion: 2
-        x: 113
+        x: 84
         y: 103
-        width: 303
-        height: 277
+        width: 332
+        height: 315
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 023a707677546fe438d0b8020619e633
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pile_animation-5_0: -8870937587325952455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -88,7 +88,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -501,7 +501,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -510,7 +510,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lamppu_animation-6_0: 310637274114453435
+      lamppu_animation-6_1: 8541360089525163020
+      lamppu_animation-6_10: 5163770433583979050
+      lamppu_animation-6_11: -1728470756211001935
+      lamppu_animation-6_12: -609779844366829899
+      lamppu_animation-6_13: -5116841146828307083
+      lamppu_animation-6_14: 2600487246168517776
+      lamppu_animation-6_2: -6718559758665933132
+      lamppu_animation-6_3: 2042826117940307229
+      lamppu_animation-6_4: 3677788178955927230
+      lamppu_animation-6_5: -2650588808020836568
+      lamppu_animation-6_6: 6462570538433661315
+      lamppu_animation-6_7: -8841443589530945030
+      lamppu_animation-6_8: 770202505245348823
+      lamppu_animation-6_9: 7491248352197700014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

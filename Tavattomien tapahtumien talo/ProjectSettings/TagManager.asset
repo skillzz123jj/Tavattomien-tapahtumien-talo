@@ -7,11 +7,12 @@ TagManager:
   - Button
   - Floor
   - Attic
+  - Item
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Item
   - Water
   - UI
   - 
