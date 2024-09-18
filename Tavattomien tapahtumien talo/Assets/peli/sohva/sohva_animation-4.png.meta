@@ -132,9 +132,9 @@ TextureImporter:
         x: 8
         y: 156
         width: 500
-        height: 206
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 836d10ec55f0c3a4fa5374acf278b0ec
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sohva_animation-4_0: 1112451722759614436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

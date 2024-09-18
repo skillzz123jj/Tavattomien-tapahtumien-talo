@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 35a74475320fa0f418ec3a5e4883a008
+guid: 10354713183a08f4abedaff9b04cddbc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -246030339890266100
-    second: sohva_animation-1_0
+      213: -1665027905114857157
+    second: sohva_animation (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sohva_animation-1_0
+      name: sohva_animation (1)_0
       rect:
         serializedVersion: 2
         x: 8
         y: 156
-        width: 483
-        height: 188
+        width: 500
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c004fda95bce59cf0800000000000000
-      internalID: -246030339890266100
+      spriteID: b31248621f1a4e8e0800000000000000
+      internalID: -1665027905114857157
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5908a76c424fa65499a480a3b87237b8
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sohva_animation (1)_0: -1665027905114857157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
