@@ -129,12 +129,12 @@ TextureImporter:
       name: sohva_animation (1)_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 13
         y: 156
-        width: 500
+        width: 495
         height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.502616, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

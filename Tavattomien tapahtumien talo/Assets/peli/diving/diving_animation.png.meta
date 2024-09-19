@@ -132,9 +132,9 @@ TextureImporter:
         x: 188
         y: 150
         width: 124
-        height: 198
+        height: 268
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5b12845d50c8a594a8d1edf42934f2ec
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diving_animation_0: 5042279373631896835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

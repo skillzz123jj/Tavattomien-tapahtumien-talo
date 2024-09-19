@@ -129,12 +129,12 @@ TextureImporter:
       name: coocoo_animation-6_0
       rect:
         serializedVersion: 2
-        x: 177
+        x: 146
         y: 174
-        width: 136
-        height: 189
+        width: 167
+        height: 228
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e9b982c77d3129545b8676244ae6a8c2
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      coocoo_animation-6_0: -2318267077846167934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

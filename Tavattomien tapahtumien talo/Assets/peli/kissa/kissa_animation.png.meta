@@ -129,12 +129,12 @@ TextureImporter:
       name: kissa_animation_0
       rect:
         serializedVersion: 2
-        x: 152
+        x: 118
         y: 151
-        width: 197
-        height: 199
+        width: 249
+        height: 339
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: abcf47d8b5707f147b93a6b1bd715b91
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kissa_animation_0: -4291760908914799816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

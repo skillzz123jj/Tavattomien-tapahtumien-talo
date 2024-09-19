@@ -131,10 +131,10 @@ TextureImporter:
         serializedVersion: 2
         x: 133
         y: 214
-        width: 233
-        height: 73
+        width: 235
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 70edfb4752032ce49b19db8dde6993a2
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rug_animation_0: -299024048977902991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
