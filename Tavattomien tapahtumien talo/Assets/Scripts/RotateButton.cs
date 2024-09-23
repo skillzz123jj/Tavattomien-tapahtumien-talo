@@ -32,11 +32,11 @@ public class RotateButton : MonoBehaviour
         {
             float angle = Mathf.Lerp(startRotation, endRotation, elapsed / rotationDuration);
             button.transform.eulerAngles = new Vector2(angle, 0);
-
+            button.enabled = false;
             if (!textToggled && Mathf.Abs(angle - 90f) < 1f)
             {
                 openHint.SetActive(!openHint.activeSelf);
-                hint.SetActive(!openHint.activeSelf);
+                hint.SetActive(!hint.activeSelf);
                 textToggled = true;
             }
 
@@ -44,6 +44,8 @@ public class RotateButton : MonoBehaviour
             yield return null;
         }
         button.transform.eulerAngles = new Vector2(endRotation, 0);
+
+        button.enabled = true;
 
         isRotated = !isRotated;
 

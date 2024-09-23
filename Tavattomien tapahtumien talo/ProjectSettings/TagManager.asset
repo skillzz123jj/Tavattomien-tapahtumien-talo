@@ -8,6 +8,7 @@ TagManager:
   - Floor
   - Attic
   - Item
+  - UI
   layers:
   - Default
   - TransparentFX

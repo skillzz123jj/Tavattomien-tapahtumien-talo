@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class CursorController : MonoBehaviour
 {
-    public Vector2 hotspotDefault = new Vector2(8, 5);
-    public Vector2 hotspotHover = new Vector2(10, 6);
-
     public Texture2D defaultCursor;
     public Texture2D hoverCursor;
-    bool hovering;
+    public bool hovering;
+    [SerializeField] Vector2 hotspotDefault = new Vector2(8, 5);
+    [SerializeField] Vector2 hotspotHover = new Vector2(10, 6);
 
     public static CursorController cursor;
 
@@ -18,15 +17,16 @@ public class CursorController : MonoBehaviour
 
     void Update()
     {
-        if (hovering)
+        //Changes cursor and its hotspot based on activity
+        if (hovering)    //|| CheckForClickableObjects())
         {
             ChangeCursor(hoverCursor, hotspotHover);
         }
         else
         {
             ChangeCursor(defaultCursor, hotspotDefault);
-        }
 
+        }
     }
     public void Hovering()
     {
@@ -35,5 +35,25 @@ public class CursorController : MonoBehaviour
     public void ExitHovering()
     {
         hovering = false;
+    }
+
+    bool CheckForClickableObjects()
+    {
+        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
+
+        if (hit)
+        {
+ 
+                if (hit.collider.gameObject.CompareTag("Item"))
+                {
+                Debug.Log(hit.collider.gameObject.name);
+                    return true;
+                }
+            
+        }
+
+        return false;
     }
 }
