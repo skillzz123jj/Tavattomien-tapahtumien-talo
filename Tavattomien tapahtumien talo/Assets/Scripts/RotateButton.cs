@@ -45,9 +45,17 @@ public class RotateButton : MonoBehaviour
         }
         button.transform.eulerAngles = new Vector2(endRotation, 0);
 
+        if (openHint.activeSelf)
+        {
+            isRotated = false;
+        }
+        else
+        {
+            isRotated = true;
+        }
+
         button.enabled = true;
 
-        isRotated = !isRotated;
 
         isRotating = false;
     }
