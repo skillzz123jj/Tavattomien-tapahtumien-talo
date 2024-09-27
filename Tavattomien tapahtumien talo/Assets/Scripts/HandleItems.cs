@@ -14,6 +14,7 @@ public class HandleItems : MonoBehaviour
         {
             items.Remove(discovered);
             discovered.GetComponent<AnimateItems>().TriggerAnimation();
+            discovered.GetComponent<BoxCollider2D>().enabled = false;
         }
        
     }

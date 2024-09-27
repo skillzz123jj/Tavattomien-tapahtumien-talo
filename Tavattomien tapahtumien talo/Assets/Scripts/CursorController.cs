@@ -51,12 +51,12 @@ public class CursorController : MonoBehaviour
  
                 if (hit.collider.gameObject.CompareTag("Item"))
                 {
-                rotateAroundCircle.capsuleCollider = (CapsuleCollider2D)hit.collider;
+                rotateAroundCircle.boxCollider = (BoxCollider2D)hit.collider;
                 rotateAroundCircle.isHoveringOverItem = true;
                 return true;
                 }
         }
-        rotateAroundCircle.capsuleCollider = null;
+        rotateAroundCircle.boxCollider = null;
         rotateAroundCircle.isHoveringOverItem = false;
         return false;
     }
