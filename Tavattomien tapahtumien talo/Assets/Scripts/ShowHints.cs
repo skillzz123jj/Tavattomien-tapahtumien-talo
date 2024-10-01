@@ -10,6 +10,8 @@ public class ShowHints : MonoBehaviour
 
     [SerializeField] private List<GameObject> hints = new List<GameObject>();
 
+    [SerializeField] private List<Button> hintButtons = new List<Button>();
+
     [SerializeField] private TMP_Text hint1Text;
     [SerializeField] private TMP_Text hint2Text;
     [SerializeField] private TMP_Text hint3Text;
@@ -22,12 +24,15 @@ public class ShowHints : MonoBehaviour
         {
             hintsEnabledBox.SetActive(true);
             hintsDisabledBox.SetActive(false);
+            InitializeButtons(true);
             ChooseHint();
         }
         else
         {
             hintsEnabledBox.SetActive(false);
             hintsDisabledBox.SetActive(true);
+            InitializeButtons(false);
+
 
         }
     }
@@ -52,5 +57,13 @@ public class ShowHints : MonoBehaviour
         hint2Text.text = item.where;
         hint3Text.text = item.whatDescription;
 
+    }
+
+    private void InitializeButtons(bool activated)
+    {
+        foreach (Button button in hintButtons)
+        {
+            button.interactable = activated;
+        }
     }
 }

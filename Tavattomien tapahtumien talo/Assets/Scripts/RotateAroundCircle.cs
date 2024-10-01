@@ -5,16 +5,15 @@ public class RotateAroundCircle : MonoBehaviour
     // Reference to the object with the BoxCollider2D
     public BoxCollider2D boxCollider;
 
-    // Track the current angle of rotation
     private float currentAngle = 0f;
 
-    // Boolean to check if we're hovering over an item
     public bool isHoveringOverItem;
 
     void Update()
     {
         if (isHoveringOverItem && boxCollider != null)
         {
+            
             gameObject.GetComponent<SpriteRenderer>().enabled = true;
 
             // Get the half-width and half-height of the BoxCollider2D

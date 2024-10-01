@@ -6,6 +6,7 @@ public class IterateButtons : MonoBehaviour
 {
     [SerializeField] List<Button> buttons = new List<Button>();
     int nextIndex = -1;
+    public bool isItem;
 
     void Update()
     {
@@ -16,12 +17,16 @@ public class IterateButtons : MonoBehaviour
                 nextIndex = (nextIndex + 1) % buttons.Count;
             }
             while (!buttons[nextIndex].interactable || !buttons[nextIndex].gameObject.activeSelf);
-
+            isItem = buttons[nextIndex].CompareTag("Item");
             buttons[nextIndex].Select();
             Debug.Log(buttons[nextIndex].name);
         }
     }
 
+    public void RemoveButton(Button item)
+    {
+        buttons.Remove(item);
+    }
     public void SkipIndex()
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Tab))

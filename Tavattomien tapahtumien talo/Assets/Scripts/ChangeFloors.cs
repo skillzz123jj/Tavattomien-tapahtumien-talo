@@ -9,13 +9,32 @@ public class ChangeFloors : MonoBehaviour
     private int currentFloorIndex = 1;
     [SerializeField] GameObject upArrow;
     [SerializeField] GameObject downArrow;
+    [SerializeField] CursorController cursorController;
+    [SerializeField] List<Button> floor1Items = new List<Button>();
+    [SerializeField] List<Button> floor2Items = new List<Button>();
+    [SerializeField] List<Button> floor3Items = new List<Button>();
+    [SerializeField] List<Button> floor4Items = new List<Button>();
+    [SerializeField] List<Button> floor5Items = new List<Button>();
+    [SerializeField] List<Button> floor6Items = new List<Button>();
+    private List<List<Button>> allButtonLists;
 
-    public void ChangeFloor(int chosenFloor)
+    void Start()
+    {
+        // Initialize all button lists into one collection
+        allButtonLists = new List<List<Button>> {
+            floor1Items, floor2Items, floor3Items,
+            floor4Items, floor5Items, floor6Items};
+
+        ChangeFloor(1);
+    }
+        public void ChangeFloor(int chosenFloor)
     {
         CinemachineCamera cam = floors[chosenFloor];
         cam.Priority = 1;
         currentFloorIndex = chosenFloor;
         CheckFloorStatus();
+        SetAllButtonListsInteractable(false);
+        SetButtonListInteractability(allButtonLists[chosenFloor], true);
 
         for (int i = 0; i < floors.Count; i++)
         {
@@ -53,6 +72,7 @@ public class ChangeFloors : MonoBehaviour
         if (currentFloorIndex == 5)
         {
             upArrow.SetActive(false);
+            cursorController.ExitHovering();
         }
         else
         {
@@ -62,10 +82,28 @@ public class ChangeFloors : MonoBehaviour
         if (currentFloorIndex == 0)
         {
             downArrow.SetActive(false);
+            cursorController.ExitHovering();
+
         }
         else
         {
             downArrow.SetActive(true);
+        }
+    }
+
+    private void SetAllButtonListsInteractable(bool isInteractable)
+    {
+        foreach (var buttonList in allButtonLists)
+        {
+            SetButtonListInteractability(buttonList, isInteractable);
+        }
+    }
+
+    private void SetButtonListInteractability(List<Button> buttonList, bool isInteractable)
+    {
+        foreach (var button in buttonList)
+        {
+            button.interactable = isInteractable;
         }
     }
 }
