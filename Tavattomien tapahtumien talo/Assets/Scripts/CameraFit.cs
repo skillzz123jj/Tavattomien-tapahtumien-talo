@@ -44,16 +44,17 @@ public class CameraFit : MonoBehaviour
         }
 
         // Set the orthographic size of the camera
-      
+
 
         if (gameObject.name == "AtticCamera")
         {
-            cam.Lens.OrthographicSize = orthographicSize;
-            float offsetY = orthographicSize - baseSpriteBounds.extents.y;
+            cam.Lens.OrthographicSize = orthographicSize + 1.5f;
+
+            float topPositionY = baseSpriteBounds.max.y - (orthographicSize + 1.5f); 
             cam.transform.position = new Vector3(
-                baseSpriteBounds.center.x,
-                baseSpriteBounds.center.y - offsetY,
-                cam.transform.position.z
+                baseSpriteBounds.center.x, 
+                topPositionY,              
+                cam.transform.position.z    
             );
         }
         else
