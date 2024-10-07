@@ -17,6 +17,8 @@ public class ShowHints : MonoBehaviour
     [SerializeField] private TMP_Text hint3Text;
     [SerializeField] private List<Items> items = new List<Items>();
 
+    [SerializeField] private HandleItems handleItems;
+
 
     void Start()
     {
@@ -32,8 +34,6 @@ public class ShowHints : MonoBehaviour
             hintsEnabledBox.SetActive(false);
             hintsDisabledBox.SetActive(true);
             InitializeButtons(false);
-
-
         }
     }
 
@@ -49,13 +49,19 @@ public class ShowHints : MonoBehaviour
             }
         }
         ShowHint(chosenItem);
+        handleItems.ActivateItem(chosenItem);
     }
 
+    public void RemoveItem(Items item)
+    {
+        items.Remove(item);
+    }
     public void ShowHint(Items item)
     {
         hint1Text.text = item.whatKind;
         hint2Text.text = item.where;
         hint3Text.text = item.whatDescription;
+
 
     }
 

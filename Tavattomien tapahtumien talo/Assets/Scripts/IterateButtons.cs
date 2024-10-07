@@ -19,13 +19,13 @@ public class IterateButtons : MonoBehaviour
             while (!buttons[nextIndex].interactable || !buttons[nextIndex].gameObject.activeSelf);
             isItem = buttons[nextIndex].CompareTag("Item");
             buttons[nextIndex].Select();
-            Debug.Log(buttons[nextIndex].name);
         }
     }
 
     public void RemoveButton(Button item)
     {
         buttons.Remove(item);
+        nextIndex--;
     }
     public void SkipIndex()
     {
@@ -34,5 +34,13 @@ public class IterateButtons : MonoBehaviour
             return;
         }
         nextIndex++;
+    }
+    public void ReturnIndex()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Tab))
+        {
+            return;
+        }
+        nextIndex--;
     }
 }

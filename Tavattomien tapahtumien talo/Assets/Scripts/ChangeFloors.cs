@@ -20,11 +20,10 @@ public class ChangeFloors : MonoBehaviour
 
     void Start()
     {
-        // Initialize all button lists into one collection
         allButtonLists = new List<List<Button>> {
             floor1Items, floor2Items, floor3Items,
             floor4Items, floor5Items, floor6Items};
-
+        SetAllButtonListsInteractable(false);
         ChangeFloor(1);
     }
         public void ChangeFloor(int chosenFloor)
@@ -33,9 +32,13 @@ public class ChangeFloors : MonoBehaviour
         cam.Priority = 1;
         currentFloorIndex = chosenFloor;
         CheckFloorStatus();
-        SetAllButtonListsInteractable(false);
-        SetButtonListInteractability(allButtonLists[chosenFloor], true);
 
+        if (!GameData.Instance.hintsEnabled)
+        {
+            SetAllButtonListsInteractable(false);
+            SetButtonListInteractability(allButtonLists[chosenFloor], true);
+        }
+     
         for (int i = 0; i < floors.Count; i++)
         {
             if (i != chosenFloor)
