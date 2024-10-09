@@ -20,7 +20,6 @@ public class MouseInteraction : MonoBehaviour
             if (hit.collider != null)
             {
                 GameObject clickedObject = hit.collider.gameObject;
-                Debug.Log("Clicked on object: " + clickedObject.name);
                 handleItems.ItemDiscovered(clickedObject.name);
                 iterateButtons.RemoveButton(hit.collider.gameObject.GetComponent<Button>());
             }

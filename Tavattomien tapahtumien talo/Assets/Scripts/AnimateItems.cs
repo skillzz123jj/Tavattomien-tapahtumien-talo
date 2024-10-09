@@ -29,8 +29,6 @@ public class AnimateItems : MonoBehaviour
     public void LoopAnimation(string animationClip)
     {
         anim.Play(animationClip, 0, timeStamp);
-
-        // Play the animation from that specific time
        
     }
  

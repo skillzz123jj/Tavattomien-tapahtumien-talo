@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class CursorController : MonoBehaviour
@@ -6,9 +5,11 @@ public class CursorController : MonoBehaviour
     public Texture2D defaultCursor;
     public Texture2D hoverCursor;
     public bool hovering;
-    public RotateAroundCircle rotateAroundCircle;
+    public RotateAroundItem rotateAroundCircle;
     [SerializeField] Vector2 hotspotDefault = new Vector2(8, 5);
     [SerializeField] Vector2 hotspotHover = new Vector2(10, 6);
+  
+
 
     public static CursorController cursor;
     
@@ -20,7 +21,6 @@ public class CursorController : MonoBehaviour
 
     void LateUpdate()
     {
-        //Changes cursor and its hotspot based on activity
         if (hovering || CheckForClickableObjects())
         {
             ChangeCursor(hoverCursor, hotspotHover);

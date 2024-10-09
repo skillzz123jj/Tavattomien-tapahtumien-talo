@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class RotateAroundCircle : MonoBehaviour
+public class RotateAroundItem : MonoBehaviour
 {
-    // Reference to the object with the BoxCollider2D
     public BoxCollider2D boxCollider;
 
     private float currentAngle = 0f;
 
     public bool isHoveringOverItem;
+
 
     void Update()
     {

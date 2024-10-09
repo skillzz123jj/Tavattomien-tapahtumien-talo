@@ -43,10 +43,9 @@ public class ShowHints : MonoBehaviour
         Items chosenItem = items[index];
         foreach (var hint in hints)
         {
-            if (hint.GetComponent<RotateButton>().isRotated)
-            {
+                hint.GetComponent<RotateButton>().isRotated = true;
                 hint.GetComponent<Button>().onClick.Invoke();
-            }
+            
         }
         ShowHint(chosenItem);
         handleItems.ActivateItem(chosenItem);
