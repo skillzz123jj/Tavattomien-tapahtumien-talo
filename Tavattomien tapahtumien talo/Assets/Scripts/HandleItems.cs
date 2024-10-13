@@ -14,12 +14,8 @@ public class HandleItems : MonoBehaviour
     private void Start()
     {
         if (GameData.Instance.hintsEnabled)
-        {
-            foreach (GameObject item in items)
-            {
-                item.GetComponent<BoxCollider2D>().enabled = false;
-              //  gameObject.GetComponent<Button>().interactable = false;
-            }
+        {     
+            ResetItems();   
         }
     }
     public void ItemDiscovered(string item)
@@ -51,11 +47,20 @@ public class HandleItems : MonoBehaviour
 
   public void ActivateItem(Items item)
     {
+        ResetItems();
         currentItem = item;
         GameObject chosenItem = items.FirstOrDefault(go => go.name == item.itemName);
         chosenItem.GetComponent<BoxCollider2D>().enabled = true;
         chosenItem.GetComponent<Button>().interactable = true;
 
+    }
+
+    private void ResetItems()
+    {
+        foreach (var item in items)
+        {
+            item.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
 
 

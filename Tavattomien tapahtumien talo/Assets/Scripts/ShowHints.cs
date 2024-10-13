@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -19,6 +20,8 @@ public class ShowHints : MonoBehaviour
 
     [SerializeField] private HandleItems handleItems;
 
+    [SerializeField] private GameObject elevatorInstruction;
+
 
     void Start()
     {
@@ -28,6 +31,7 @@ public class ShowHints : MonoBehaviour
             hintsDisabledBox.SetActive(false);
             InitializeButtons(true);
             ChooseHint();
+            StartCoroutine(ShowInstructions(10));
         }
         else
         {
@@ -70,5 +74,16 @@ public class ShowHints : MonoBehaviour
         {
             button.interactable = activated;
         }
+    }
+
+    IEnumerator ShowInstructions(float time)
+    {
+        if (elevatorInstruction != null)
+        {
+            elevatorInstruction.SetActive(true);
+        }
+        yield return new WaitForSeconds(time);
+
+        elevatorInstruction.SetActive(false);
     }
 }
