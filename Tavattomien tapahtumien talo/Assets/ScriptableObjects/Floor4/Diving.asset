@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Diving
   m_EditorClassIdentifier: 
   itemName: Diving
-  whatKind: '-'
+  whatKind: Kulmikas.
   where: Se on kylphyhuoneessa.
-  whatDescription: Pesukone
+  whatDescription: Pyykinpesukone.

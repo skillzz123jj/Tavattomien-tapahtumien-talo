@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Logs
   m_EditorClassIdentifier: 
   itemName: Pile
-  whatKind: '-'
+  whatKind: Puinen.
   where: Se on kellarissa.
-  whatDescription: Puut
+  whatDescription: Halkopino.

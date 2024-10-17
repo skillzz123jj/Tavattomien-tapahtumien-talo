@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Clock
   m_EditorClassIdentifier: 
   itemName: Clock
-  whatKind: '-'
+  whatKind: "\xC4\xE4nek\xE4s."
   where: Se on makuuhuoneessa.
-  whatDescription: "Her\xE4tyskello"
+  whatDescription: "Her\xE4tyskello."

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Skeleton
   m_EditorClassIdentifier: 
   itemName: Skeleton
-  whatKind: '-'
+  whatKind: Avattava.
   where: Se on olohuoneessa.
-  whatDescription: Kaappi
+  whatDescription: Kaappi.

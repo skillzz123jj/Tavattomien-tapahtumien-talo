@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Furnace
   m_EditorClassIdentifier: 
   itemName: Furnace
-  whatKind: '-'
+  whatKind: "L\xE4mmin."
   where: Se on kellarissa.
-  whatDescription: Uuni
+  whatDescription: Uuni.

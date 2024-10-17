@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Fridge
   m_EditorClassIdentifier: 
   itemName: Fridge
-  whatKind: '-'
+  whatKind: "Viile\xE4."
   where: "Se on keitti\xF6ss\xE4."
-  whatDescription: "J\xE4\xE4kaappi"
+  whatDescription: "J\xE4\xE4kaappi."

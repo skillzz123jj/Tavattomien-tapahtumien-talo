@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ghost
   m_EditorClassIdentifier: 
   itemName: Ghost
-  whatKind: '-'
+  whatKind: Puhdas.
   where: "Se on vintill\xE4."
-  whatDescription: Lakana
+  whatDescription: Lakana.

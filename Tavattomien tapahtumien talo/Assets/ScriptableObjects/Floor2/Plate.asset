@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Plate
   m_EditorClassIdentifier: 
   itemName: Plate
-  whatKind: '-'
+  whatKind: "Litte\xE4."
   where: "Se on keitti\xF6ss\xE4."
-  whatDescription: Lautanen
+  whatDescription: Lautanen.

@@ -31,7 +31,6 @@ public class ShowHints : MonoBehaviour
             hintsDisabledBox.SetActive(false);
             InitializeButtons(true);
             ChooseHint();
-            StartCoroutine(ShowInstructions(10));
         }
         else
         {
@@ -39,6 +38,8 @@ public class ShowHints : MonoBehaviour
             hintsDisabledBox.SetActive(true);
             InitializeButtons(false);
         }
+        StartCoroutine(ShowInstructions(10));
+
     }
 
     public void ChooseHint()

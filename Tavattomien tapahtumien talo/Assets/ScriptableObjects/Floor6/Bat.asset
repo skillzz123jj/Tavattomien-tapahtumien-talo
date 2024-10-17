@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Bat
   m_EditorClassIdentifier: 
   itemName: Bat
-  whatKind: '-'
+  whatKind: "Py\xF6re\xE4."
   where: "Se on vintill\xE4."
-  whatDescription: Lepakko
+  whatDescription: "Ampiaispes\xE4."

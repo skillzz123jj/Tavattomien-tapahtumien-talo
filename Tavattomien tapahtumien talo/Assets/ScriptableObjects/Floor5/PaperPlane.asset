@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PaperPlane
   m_EditorClassIdentifier: 
   itemName: PaperPlane
-  whatKind: '-'
+  whatKind: "L\xE4pin\xE4kyv\xE4."
   where: Se on makuuhuoneessa.
-  whatDescription: Ikkuna
+  whatDescription: Ikkuna.

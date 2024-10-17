@@ -1794,8 +1794,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 323.75488, y: 7.95}
-  m_SizeDelta: {x: 517.4713, y: 50}
+  m_AnchoredPosition: {x: 285.1294, y: 7.95}
+  m_SizeDelta: {x: 440.2205, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134605459
 MonoBehaviour:
@@ -1817,9 +1817,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Talossa tapahtuu hassunkurisia ja yll\xE4tt\xE4vi\xE4 asioita!\n\nVoit
-    etsi\xE4 yll\xE4tyksi\xE4 vapaasti ilman vihjeit\xE4 tai yksi kerrallaan vihjeiden
-    perusteella.\n"
+  m_text: "Talossa tapahtuu hassunkurisia ja yll\xE4tt\xE4vi\xE4 asioita!\n\nEtsi
+    yll\xE4tyksi\xE4 vapaasti ilman vihjeit\xE4 tai yksi kerrallaan vihjeiden perusteella.
+    Voit pelata peli\xE4 hiirell\xE4 tai painikkeilla.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5020,8 +5020,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 312598f3dbdc6a340ad99dfea52af45f, type: 3}
-  m_Resource: {fileID: 8300000, guid: 312598f3dbdc6a340ad99dfea52af45f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a03ae6bcc2aed5942bd9fa365e769420, type: 3}
+  m_Resource: {fileID: 8300000, guid: a03ae6bcc2aed5942bd9fa365e769420, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6153,13 +6153,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n<size=35>\n\n<b>Ohjeet</b>\n\nTavattomien tapahtumien talossa tavallisille
-    esineille tapahtuu yll\xE4tt\xE4vi\xE4, hassunkurisia asioita.\n\nTalossa voi
-    liikkua ja toimia sek\xE4 hiirell\xE4 ett\xE4 painikkeilla askeltamalla.\n\nTalon
-    eri huoneisiin on piilotettu yll\xE4tyksi\xE4. Yll\xE4tyksen tunnistaa esineen
-    p\xE4\xE4lle ilmestyv\xE4st\xE4 kuplasta. Yll\xE4tyksen saa n\xE4kyviin napsauttamalla
-    esinett\xE4. \n\nYll\xE4tyksi\xE4 voi etsi\xE4 vapaasti ilman vihjeit\xE4 tai
-    yksi kerrallaan vihjeiden avulla.\n</size>\n\n\r\n\r"
+  m_text: "\n<size=35>\n\n<b>Ohjeet</b>\n\r\nTavattomien tapahtumien talossa tavallisille
+    esineille tapahtuu yll\xE4tt\xE4vi\xE4 asioita. Voit pelata peli\xE4 hiirell\xE4
+    tai painikkeilla.\n\r\nTeht\xE4v\xE4n\xE4si on etsi\xE4 yll\xE4tyksi\xE4 talon
+    eri huoneista. Tunnistat yll\xE4tyksen esineen p\xE4\xE4lle ilmestyv\xE4st\xE4
+    kuplasta. Saat yll\xE4tyksen n\xE4kyviin, kun klikkaat esinett\xE4.\n\r\nPelin
+    aloitussivulla voit valita, haluatko etsi\xE4 yll\xE4tyksi\xE4 vapaasti ilman
+    vihjeit\xE4 tai yksi kerrallaan vihjeiden avulla.\r\n\n</size>\n\n\r\n\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
