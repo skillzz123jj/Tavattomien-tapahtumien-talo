@@ -17,6 +17,11 @@ public class ChangeFloors : MonoBehaviour
     [SerializeField] List<Button> floor5Items = new List<Button>();
     [SerializeField] List<Button> floor6Items = new List<Button>();
     private List<List<Button>> allButtonLists;
+    [SerializeField] private List<Button> floorSelctionButtons = new List<Button>();
+
+    [SerializeField] private Color defaultHighlight;
+    [SerializeField] private Color activatedhighlight;
+
 
     void Start()
     {
@@ -37,6 +42,8 @@ public class ChangeFloors : MonoBehaviour
         {
             SetAllButtonListsInteractable(false);
             SetButtonListInteractability(allButtonLists[chosenFloor], true);
+           
+          
         }
      
         for (int i = 0; i < floors.Count; i++)
@@ -64,9 +71,12 @@ public class ChangeFloors : MonoBehaviour
 
     public void ChangeColor(Button button)
     {
+        ResetFloorButtonColors();
 
-        button.interactable = false;
-        button.interactable = true;
+        ColorBlock cb = button.colors;
+        cb.highlightedColor = activatedhighlight;
+        cb.selectedColor = activatedhighlight;
+        button.colors = cb;
 
     }
 
@@ -107,6 +117,17 @@ public class ChangeFloors : MonoBehaviour
         foreach (var button in buttonList)
         {
             button.interactable = isInteractable;
+        }
+    }
+
+    private void ResetFloorButtonColors()
+    {
+        foreach (Button button in floorSelctionButtons)
+        {
+           ColorBlock cb = button.colors;
+            cb.highlightedColor = defaultHighlight;
+            cb.selectedColor = defaultHighlight;
+            button.colors = cb;
         }
     }
 }

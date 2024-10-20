@@ -9,6 +9,8 @@ TagManager:
   - Attic
   - Item
   - UI
+  - BedroomSky
+  - AtticSky
   layers:
   - Default
   - TransparentFX
