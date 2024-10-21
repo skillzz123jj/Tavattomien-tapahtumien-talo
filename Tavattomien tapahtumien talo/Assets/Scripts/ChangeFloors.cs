@@ -37,7 +37,7 @@ public class ChangeFloors : MonoBehaviour
         cam.Priority = 1;
         currentFloorIndex = chosenFloor;
         CheckFloorStatus();
-
+        ChangeColor(floorSelctionButtons[chosenFloor]);
         if (!GameData.Instance.hintsEnabled)
         {
             SetAllButtonListsInteractable(false);
