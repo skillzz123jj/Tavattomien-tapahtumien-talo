@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -38,7 +37,6 @@ public class ShowHints : MonoBehaviour
             hintsDisabledBox.SetActive(true);
             InitializeButtons(false);
         }
-        StartCoroutine(ShowInstructions(10));
 
     }
 
@@ -75,16 +73,5 @@ public class ShowHints : MonoBehaviour
         {
             button.interactable = activated;
         }
-    }
-
-    IEnumerator ShowInstructions(float time)
-    {
-        if (elevatorInstruction != null)
-        {
-            elevatorInstruction.SetActive(true);
-        }
-        yield return new WaitForSeconds(time);
-
-        elevatorInstruction.SetActive(false);
     }
 }

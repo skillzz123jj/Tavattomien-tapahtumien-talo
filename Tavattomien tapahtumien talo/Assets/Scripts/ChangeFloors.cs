@@ -18,7 +18,8 @@ public class ChangeFloors : MonoBehaviour
     [SerializeField] List<Button> floor6Items = new List<Button>();
     private List<List<Button>> allButtonLists;
     [SerializeField] private List<Button> floorSelctionButtons = new List<Button>();
-
+    [SerializeField] private List<AudioClip> idleAudioClips = new List<AudioClip>();
+    [SerializeField] private AudioSource idleAudioSource;
     [SerializeField] private Color defaultHighlight;
     [SerializeField] private Color activatedhighlight;
 
@@ -38,6 +39,9 @@ public class ChangeFloors : MonoBehaviour
         currentFloorIndex = chosenFloor;
         CheckFloorStatus();
         ChangeColor(floorSelctionButtons[chosenFloor]);
+        
+        PlayAudio(chosenFloor);
+        
         if (!GameData.Instance.hintsEnabled)
         {
             SetAllButtonListsInteractable(false);
@@ -130,4 +134,35 @@ public class ChangeFloors : MonoBehaviour
             button.colors = cb;
         }
     }
+    List<int> playedClips = new List<int>();
+
+    private void PlayAudio(int chosenFloor)
+    {
+        if (idleAudioSource.isPlaying)
+        {
+            idleAudioSource.Stop();
+        }
+        // Check if the audio for this floor has already been played
+        if (playedClips.Contains(chosenFloor))
+        {
+            return; // Exit if the clip for this floor has already been played
+        }
+
+        // Get the audio clip for the chosen floor
+        AudioClip clip = idleAudioClips[chosenFloor];
+
+        if (clip == null)
+        {
+            return; // Exit if there's no audio clip for this floor
+        }
+
+       
+        // Play the audio and add the chosen floor to the played clips list
+        idleAudioSource.PlayOneShot(clip);
+        playedClips.Add(chosenFloor);  // Mark this floor as having played its clip
+
+        // Optional: if you still want to remove the clip, this line remains
+        // idleAudioClips.Remove(clip); // If you don't want to remove the clip, remove this line
+    }
+
 }

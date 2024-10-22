@@ -5,6 +5,7 @@ public class AnimateItems : MonoBehaviour
 {
     private Animator anim;
     [SerializeField] float timeStamp;
+    [SerializeField] AudioSource idleAudioSource;
 
     private void Start()
     {
@@ -24,6 +25,15 @@ public class AnimateItems : MonoBehaviour
         {
             anim.enabled = false;
         }
+    }
+
+    public void InteractWihtIdleAudio()
+    {
+        if (idleAudioSource != null && idleAudioSource.isPlaying)
+        {
+            idleAudioSource.Stop();
+        }
+
     }
 
     public void LoopAnimation(string animationClip)

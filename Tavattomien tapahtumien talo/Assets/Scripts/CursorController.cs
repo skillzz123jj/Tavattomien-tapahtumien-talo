@@ -5,12 +5,10 @@ public class CursorController : MonoBehaviour
     public Texture2D defaultCursor;
     public Texture2D hoverCursor;
     public bool hovering;
-    public RotateAroundItem rotateAroundCircle;
+    public RotateAroundItem rotateAroundItem;
     [SerializeField] Vector2 hotspotDefault = new Vector2(8, 5);
     [SerializeField] Vector2 hotspotHover = new Vector2(10, 6);
-  
-
-
+    [SerializeField] private LayerMask clickableLayer;
     public static CursorController cursor;
     
 
@@ -44,26 +42,27 @@ public class CursorController : MonoBehaviour
     {
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
+        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero, Mathf.Infinity, clickableLayer);
+
 
         if (hit)
         {
  
                 if (hit.collider.gameObject.CompareTag("Item"))
                 {
-                if (rotateAroundCircle != null)
+                if (rotateAroundItem != null)
                 {
-                    rotateAroundCircle.boxCollider = (BoxCollider2D)hit.collider;
-                    rotateAroundCircle.isHoveringOverItem = true;
+                    rotateAroundItem.boxCollider = (BoxCollider2D)hit.collider;
+                    rotateAroundItem.isHoveringOverItem = true;
                 }
 
                 return true;
                 }
         }
-        if (rotateAroundCircle != null)
+        if (rotateAroundItem != null)
         {
-            rotateAroundCircle.boxCollider = null;
-            rotateAroundCircle.isHoveringOverItem = false;
+            rotateAroundItem.boxCollider = null;
+            rotateAroundItem.isHoveringOverItem = false;
         }
      
         return false;
