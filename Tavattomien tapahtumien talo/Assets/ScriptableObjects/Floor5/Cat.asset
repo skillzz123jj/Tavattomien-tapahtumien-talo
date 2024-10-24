@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Cat
   m_EditorClassIdentifier: 
   itemName: Cat
-  whatKind: "P\xF6rr\xF6inen."
-  where: Se on makuuhuoneessa.
-  whatDescription: Kissa.
+  whatKind: "p\xF6rr\xF6inen"
+  where: makuuhuoneessa
+  whatDescription: kissa

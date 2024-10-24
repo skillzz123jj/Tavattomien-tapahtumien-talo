@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ball
   m_EditorClassIdentifier: 
   itemName: Ball
-  whatKind: "Py\xF6riv\xE4."
-  where: Se on makuuhuoneessa.
-  whatDescription: Karttapallo.
+  whatKind: "py\xF6riv\xE4"
+  where: makuuhuoneessa
+  whatDescription: karttapallo

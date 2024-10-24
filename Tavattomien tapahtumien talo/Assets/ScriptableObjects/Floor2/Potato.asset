@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Potato
   m_EditorClassIdentifier: 
   itemName: Potato
-  whatKind: "Sy\xF6t\xE4v\xE4."
-  where: "Se on keitti\xF6ss\xE4."
-  whatDescription: Peruna.
+  whatKind: "sy\xF6t\xE4v\xE4"
+  where: "keitti\xF6ss\xE4"
+  whatDescription: peruna

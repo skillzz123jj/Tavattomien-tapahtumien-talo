@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Bath
   m_EditorClassIdentifier: 
   itemName: Bath
-  whatKind: Valkoinen.
-  where: Se on kylphyhuoneessa.
-  whatDescription: Kylpyamme.
+  whatKind: valkoinen
+  where: kylphyhuoneessa
+  whatDescription: kylpyamme

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Succulent
   m_EditorClassIdentifier: 
   itemName: Succulent
-  whatKind: "Piikik\xE4s."
-  where: Se on olohuoneessa.
-  whatDescription: Kaktus.
+  whatKind: "piikik\xE4s"
+  where: olohuoneessa
+  whatDescription: kaktus

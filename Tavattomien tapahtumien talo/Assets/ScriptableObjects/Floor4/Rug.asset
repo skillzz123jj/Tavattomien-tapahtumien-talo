@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Rug
   m_EditorClassIdentifier: 
   itemName: Rug
-  whatKind: "Vihre\xE4."
-  where: Se on kylphyhuoneessa.
-  whatDescription: Matto.
+  whatKind: "vihre\xE4"
+  where: kylphyhuoneessa
+  whatDescription: matto

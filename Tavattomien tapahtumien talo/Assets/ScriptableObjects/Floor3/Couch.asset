@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Couch
   m_EditorClassIdentifier: 
   itemName: Couch
-  whatKind: "Pehme\xE4."
-  where: Se on olohuoneessa.
-  whatDescription: Tyyny.
+  whatKind: "pehme\xE4"
+  where: olohuoneessa
+  whatDescription: tyyny

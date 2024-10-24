@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Man
   m_EditorClassIdentifier: 
   itemName: Man
-  whatKind: Raidallinen.
-  where: Se on kylphyhuoneessa.
-  whatDescription: Mies.
+  whatKind: raidallinen
+  where: kylphyhuoneessa
+  whatDescription: mies

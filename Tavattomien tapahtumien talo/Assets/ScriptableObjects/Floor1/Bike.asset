@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Bike
   m_EditorClassIdentifier: 
   itemName: Bike
-  whatKind: "Rikkin\xE4inen."
-  where: Se on kellarissa.
-  whatDescription: "Polkupy\xF6r\xE4."
+  whatKind: "rikkin\xE4inen"
+  where: kellarissa
+  whatDescription: "polkupy\xF6r\xE4"

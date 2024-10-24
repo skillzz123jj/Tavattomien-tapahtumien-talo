@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Lamp
   m_EditorClassIdentifier: 
   itemName: Lamp
-  whatKind: Kirkas.
-  where: Se on kellarissa.
-  whatDescription: Lamppu.
+  whatKind: kirkas
+  where: kellarissa
+  whatDescription: lamppu

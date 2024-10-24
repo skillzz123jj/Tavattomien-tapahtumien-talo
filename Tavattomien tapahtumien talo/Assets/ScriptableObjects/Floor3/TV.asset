@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TV
   m_EditorClassIdentifier: 
   itemName: TV
-  whatKind: "Viihdytt\xE4v\xE4."
-  where: Se on olohuoneessa.
-  whatDescription: Televisio.
+  whatKind: "viihdytt\xE4v\xE4"
+  where: olohuoneessa
+  whatDescription: televisio

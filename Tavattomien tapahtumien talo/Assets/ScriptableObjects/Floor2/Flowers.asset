@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Flowers
   m_EditorClassIdentifier: 
   itemName: Flowers
-  whatKind: Kaunis.
-  where: "Se on keitti\xF6ss\xE4."
-  whatDescription: Kukka.
+  whatKind: kaunis
+  where: "keitti\xF6ss\xE4"
+  whatDescription: kukka
