@@ -27,7 +27,11 @@ public class HandleItems : MonoBehaviour
             discovered.GetComponent<AnimateItems>().TriggerAnimation();
             discovered.GetComponent<BoxCollider2D>().enabled = false;
             discovered.GetComponent<AudioSource>().Play();
-            AllItemsDiscovered();
+  
+            if (items.Count <= 0)
+            {
+                Invoke("AllItemsDiscovered", 4);
+            }
             if (GameData.Instance.hintsEnabled)
             {
                 showHints.RemoveItem(currentItem);
@@ -38,12 +42,12 @@ public class HandleItems : MonoBehaviour
 
     void AllItemsDiscovered()
     {
-        if (items.Count <= 0)
-        {
+        
             gameOver.SetActive(true);
             iterateItems.enabled = false;
-        }
+        
     }
+
 
   public void ActivateItem(Items item)
     {

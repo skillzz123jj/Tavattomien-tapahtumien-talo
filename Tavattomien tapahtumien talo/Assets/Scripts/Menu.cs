@@ -9,7 +9,7 @@ public class Menu : MonoBehaviour
     [SerializeField] Button stopAudioButton;
     [SerializeField] GameObject muteAudioButton;
     [SerializeField] GameObject unmuteAudioButton;
-
+    Coroutine instructionsCoroutine;
     private void Start()
     {
         if (GameData.Instance.isAudioMuted)
@@ -64,17 +64,27 @@ public class Menu : MonoBehaviour
     }
     public void PlayInstructions()
     {
+        if (instructionsCoroutine != null)
+        {
+            StopCoroutine(instructionsCoroutine);
+            _audioSource.Stop(); 
+        }
+
         if (CheckInput())
         {
             return;
         }
-        StartCoroutine(PlayAudio());
+        instructionsCoroutine = StartCoroutine(PlayAudio());
     }
-    public IEnumerator PlayAudio()
+
+    private IEnumerator PlayAudio()
     {
         _audioSource.Play();
         yield return new WaitForSeconds(_audioSource.clip.length);
+
         stopAudioButton.onClick.Invoke();
+
+        instructionsCoroutine = null;
     }
     public void PreventInteraction()
     {

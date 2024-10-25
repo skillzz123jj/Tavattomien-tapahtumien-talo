@@ -1684,7 +1684,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 4c606470f123ab845af41d7a868e06a8, type: 3}
   m_Resource: {fileID: 8300000, guid: 4c606470f123ab845af41d7a868e06a8, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2535,7 +2535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -200.1}
+  m_AnchoredPosition: {x: 0, y: -199}
   m_SizeDelta: {x: 112, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301364241
@@ -3927,7 +3927,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 12a180a938bd041499b3208f75c1266e, type: 3}
   m_Resource: {fileID: 8300000, guid: 12a180a938bd041499b3208f75c1266e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4750,7 +4750,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: cb003121b13e11e49a38961407c96233, type: 3}
   m_Resource: {fileID: 8300000, guid: cb003121b13e11e49a38961407c96233, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7469,6 +7469,18 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 1751836665}
+          m_TargetAssemblyTypeName: IterateButtons, Assembly-CSharp
+          m_MethodName: SkipIndex
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 9146802075735002455}
           m_TargetAssemblyTypeName: IterateButtons, Assembly-CSharp
           m_MethodName: SkipIndex
           m_Mode: 1
@@ -10514,7 +10526,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11036,7 +11048,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fb1ea08517c2cd44eb9ba6a135f82386, type: 3}
   m_Resource: {fileID: 8300000, guid: fb1ea08517c2cd44eb9ba6a135f82386, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12524,7 +12536,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 40c032107a499f04c9205f3412cd7bd5, type: 3}
   m_Resource: {fileID: 8300000, guid: 40c032107a499f04c9205f3412cd7bd5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -15904,6 +15916,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 9146802075735002455}
+          m_TargetAssemblyTypeName: IterateButtons, Assembly-CSharp
+          m_MethodName: ReturnIndex
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &1420748147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16596,7 +16620,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 4903497479982853834, guid: 0fff74e072481de47acdfd2410a99068, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -20665,7 +20689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 172.2}
+  m_AnchoredPosition: {x: 0, y: 171.3}
   m_SizeDelta: {x: 112, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1911450144
@@ -21640,7 +21664,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 62e4ce7bdfc90bf4497a97b424421cf5, type: 3}
   m_Resource: {fileID: 8300000, guid: 62e4ce7bdfc90bf4497a97b424421cf5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.9
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -22042,7 +22066,7 @@ Transform:
   m_GameObject: {fileID: 1934905567}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.8399963, y: 1.2699986, z: -3.5077157}
+  m_LocalPosition: {x: 7.82, y: 1.2699986, z: -3.5077157}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22588,7 +22612,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: ff053fda5b8498343adf3b6196645c0b, type: 3}
   m_Resource: {fileID: 8300000, guid: ff053fda5b8498343adf3b6196645c0b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.9
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -23226,7 +23250,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 4903497479982853834, guid: 0fff74e072481de47acdfd2410a99068, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -1325,9 +1325,12 @@ MonoBehaviour:
   defaultCursor: {fileID: 2800000, guid: 7721611ea56f7a14cbc4348cc70599f3, type: 3}
   hoverCursor: {fileID: 2800000, guid: 6a46cbcab5eb87a4895cf2bdc0cb608f, type: 3}
   hovering: 0
-  rotateAroundCircle: {fileID: 0}
+  rotateAroundItem: {fileID: 0}
   hotspotDefault: {x: 8, y: 5}
   hotspotHover: {x: 10, y: 6}
+  clickableLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1932876333
 GameObject:
   m_ObjectHideFlags: 0
@@ -5282,6 +5285,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 8394516811121124286}
+          m_TargetAssemblyTypeName: IterateButtons, Assembly-CSharp
+          m_MethodName: ReturnIndex
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &6811558168025778846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5884,18 +5899,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1368035982}
-          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-          m_MethodName: set_enabled
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
   - eventID: 4
     callback:
       m_PersistentCalls:
@@ -5999,18 +6002,6 @@ MonoBehaviour:
         - m_Target: {fileID: 2379476714569081152}
           m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
           m_MethodName: set_interactable
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 8394516811121124286}
-          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-          m_MethodName: set_enabled
           m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
