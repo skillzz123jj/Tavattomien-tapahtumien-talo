@@ -16,3 +16,6 @@ MonoBehaviour:
   whatKind: "pehme\xE4"
   where: olohuoneessa
   whatDescription: tyyny
+  whatKindClip: {fileID: 8300000, guid: dd3901ade491368419af30159a152be4, type: 3}
+  whereClip: {fileID: 8300000, guid: f1532a1554400464ba6e1ec2b3997b84, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 57b6b4bdb9422e347bb5ca3a4c84b98f, type: 3}

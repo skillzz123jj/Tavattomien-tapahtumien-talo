@@ -16,3 +16,6 @@ MonoBehaviour:
   whatKind: "rikkin\xE4inen"
   where: kellarissa
   whatDescription: "polkupy\xF6r\xE4"
+  whatKindClip: {fileID: 8300000, guid: acfc84df00d524e4f8474d8aaa9892b7, type: 3}
+  whereClip: {fileID: 8300000, guid: aaaca878e7f64c04abab178f52378123, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: e3b8b53ce7782494a929991f49663613, type: 3}

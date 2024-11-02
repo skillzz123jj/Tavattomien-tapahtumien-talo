@@ -16,3 +16,6 @@ MonoBehaviour:
   whatKind: "l\xE4mmin"
   where: kellarissa
   whatDescription: uuni
+  whatKindClip: {fileID: 8300000, guid: 2ed191bb5c757f44bb9acce9b6003ee1, type: 3}
+  whereClip: {fileID: 8300000, guid: aaaca878e7f64c04abab178f52378123, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: ef88b9e486b45ec4db050a52ec17eb7a, type: 3}

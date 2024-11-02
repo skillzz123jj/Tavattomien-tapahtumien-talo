@@ -8,6 +8,10 @@ public class RotateButton : MonoBehaviour
     public GameObject openHint;
     public GameObject hint;
 
+    [SerializeField] AudioSource _source;
+    [SerializeField] AudioClip questionClip;
+    [SerializeField] GameObject answerClip;
+    AudioClip currentClip;
     private bool isRotating = false;
     public bool isRotated = true;
     private float rotationDuration = 1f; 
@@ -44,14 +48,26 @@ public class RotateButton : MonoBehaviour
         if (isRotated)
         {
             hint.SetActive(true);
+            if (answerClip.GetComponent<AudioSource>().clip != null)
+            {
+            currentClip = answerClip.GetComponent<AudioSource>().clip;
+
+            }
         }
         else
         {
             openHint.SetActive(true);
+            currentClip = questionClip;
         }
 
 
         isRotating = false;
+    }
+
+    public void PlayAudio(AudioSource source)
+    {
+        
+        source.PlayOneShot(currentClip);
     }
 }
 

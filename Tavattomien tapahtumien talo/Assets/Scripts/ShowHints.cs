@@ -12,9 +12,9 @@ public class ShowHints : MonoBehaviour
 
     [SerializeField] private List<Button> hintButtons = new List<Button>();
 
-    [SerializeField] private TMP_Text hint1Text;
-    [SerializeField] private TMP_Text hint2Text;
-    [SerializeField] private TMP_Text hint3Text;
+    [SerializeField] private GameObject hint1;
+    [SerializeField] private GameObject hint2;
+    [SerializeField] private GameObject hint3;
     [SerializeField] private List<Items> items = new List<Items>();
 
     [SerializeField] private HandleItems handleItems;
@@ -60,9 +60,25 @@ public class ShowHints : MonoBehaviour
     }
     public void ShowHint(Items item)
     {
-        hint1Text.text = item.whatKind;
-        hint2Text.text = item.where;
-        hint3Text.text = item.whatDescription;
+        hint1.GetComponent<TMP_Text>().text = item.whatKind;
+        hint2.GetComponent<TMP_Text>().text = item.where;
+        hint3.GetComponent<TMP_Text>().text = item.whatDescription;
+
+        // Check for null before assigning audio clips
+        if (item.whatKindClip != null)
+        {
+            hint1.GetComponent<AudioSource>().clip = item.whatKindClip;
+        }
+
+        if (item.whereClip != null)
+        {
+            hint2.GetComponent<AudioSource>().clip = item.whereClip;
+        }
+
+        if (item.whatDescriptionClip != null)
+        {
+            hint3.GetComponent<AudioSource>().clip = item.whatDescriptionClip;
+        }
 
 
     }

@@ -16,3 +16,6 @@ MonoBehaviour:
   whatKind: "piikik\xE4s"
   where: olohuoneessa
   whatDescription: kaktus
+  whatKindClip: {fileID: 8300000, guid: 54c3b45f18be6014587f23a3a7e5e7c8, type: 3}
+  whereClip: {fileID: 8300000, guid: f1532a1554400464ba6e1ec2b3997b84, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 3fa845199a145294d98fc7a20abb5c95, type: 3}

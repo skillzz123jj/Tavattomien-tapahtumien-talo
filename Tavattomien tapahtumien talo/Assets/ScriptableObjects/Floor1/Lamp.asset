@@ -16,3 +16,6 @@ MonoBehaviour:
   whatKind: kirkas
   where: kellarissa
   whatDescription: lamppu
+  whatKindClip: {fileID: 8300000, guid: 39918ce276e5b9549837183d20ddf6d2, type: 3}
+  whereClip: {fileID: 8300000, guid: aaaca878e7f64c04abab178f52378123, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: e76c4c53ff818a24c9ed793d6454e451, type: 3}
