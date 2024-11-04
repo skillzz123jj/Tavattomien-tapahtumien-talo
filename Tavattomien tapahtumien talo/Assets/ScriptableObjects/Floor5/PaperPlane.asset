@@ -16,3 +16,7 @@ MonoBehaviour:
   whatKind: "l\xE4pin\xE4kyv\xE4"
   where: makuuhuoneessa
   whatDescription: ikkuna
+  floor: 4
+  whatKindClip: {fileID: 8300000, guid: 06c2439cf08938944943e68a80c2052b, type: 3}
+  whereClip: {fileID: 8300000, guid: fba09fd4de64ccc45a56aa001c0ed74d, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: de0cf1fce4c5ba647adc6ba4fc63db96, type: 3}

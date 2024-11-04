@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Man
   whatKind: raidallinen
-  where: kylphyhuoneessa
+  where: kylpyhuoneessa
   whatDescription: mies
+  floor: 3
+  whatKindClip: {fileID: 8300000, guid: 698531f8d5d142c44b69634d2ca453d9, type: 3}
+  whereClip: {fileID: 8300000, guid: bfa7978585374f345a7543490bb84ede, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: c995f68a52718ce4a921e398a60df6c4, type: 3}

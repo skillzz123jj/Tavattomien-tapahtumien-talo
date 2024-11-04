@@ -16,6 +16,7 @@ MonoBehaviour:
   whatKind: avattava
   where: olohuoneessa
   whatDescription: kaappi
+  floor: 2
   whatKindClip: {fileID: 8300000, guid: 31a9c908d9cd67a4ba2086cd0db1e2a7, type: 3}
   whereClip: {fileID: 8300000, guid: f1532a1554400464ba6e1ec2b3997b84, type: 3}
   whatDescriptionClip: {fileID: 8300000, guid: 18e3b2a6081c16a419fd9e35ec6bd5fa, type: 3}

@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Rug
   whatKind: "vihre\xE4"
-  where: kylphyhuoneessa
+  where: kylpyhuoneessa
   whatDescription: matto
+  floor: 3
+  whatKindClip: {fileID: 8300000, guid: d2adb9424eb300b44a1d0101568157d0, type: 3}
+  whereClip: {fileID: 8300000, guid: bfa7978585374f345a7543490bb84ede, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 477dc72bc9b89d9479bbc0c18188733b, type: 3}

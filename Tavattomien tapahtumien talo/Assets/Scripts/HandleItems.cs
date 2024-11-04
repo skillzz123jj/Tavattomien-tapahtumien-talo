@@ -9,7 +9,7 @@ public class HandleItems : MonoBehaviour
     [SerializeField] private GameObject gameOver;
     [SerializeField] private IterateButtons iterateItems;
     [SerializeField] private ShowHints showHints;
-    Items currentItem;
+    public Items currentItem;
 
     private void Start()
     {

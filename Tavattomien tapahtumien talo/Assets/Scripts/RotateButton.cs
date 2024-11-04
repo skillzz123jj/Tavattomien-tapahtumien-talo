@@ -38,19 +38,21 @@ public class RotateButton : MonoBehaviour
             float angle = Mathf.Lerp(startRotation, endRotation, elapsed / rotationDuration);
             button.transform.eulerAngles = new Vector2(angle, 0);
             button.enabled = false;
- 
+            _source.Stop();
             elapsed += Time.deltaTime;
             yield return null;
         }
         isRotated = !isRotated;
         button.transform.eulerAngles = new Vector2(endRotation, 0);
         button.enabled = true;
+   
         if (isRotated)
         {
             hint.SetActive(true);
             if (answerClip.GetComponent<AudioSource>().clip != null)
             {
             currentClip = answerClip.GetComponent<AudioSource>().clip;
+                PlayAudio(_source);
 
             }
         }
@@ -60,14 +62,26 @@ public class RotateButton : MonoBehaviour
             currentClip = questionClip;
         }
 
-
         isRotating = false;
     }
 
+    private AudioClip lastPlayedClip = null;
+
     public void PlayAudio(AudioSource source)
     {
-        
+        // Check if the new clip is the same as the last one played
+        if (source.isPlaying && currentClip == lastPlayedClip)
+        {
+            // Do nothing if the same clip is already playing
+            return;
+        }
+
+        // If a different clip is requested, stop the current one and play the new one
+        source.Stop();
         source.PlayOneShot(currentClip);
+
+        // Update the last played clip
+        lastPlayedClip = currentClip;
     }
 }
 

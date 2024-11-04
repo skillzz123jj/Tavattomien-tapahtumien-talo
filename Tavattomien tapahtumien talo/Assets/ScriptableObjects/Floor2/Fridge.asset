@@ -16,6 +16,7 @@ MonoBehaviour:
   whatKind: "viile\xE4"
   where: "keitti\xF6ss\xE4"
   whatDescription: "j\xE4\xE4kaappi"
+  floor: 1
   whatKindClip: {fileID: 8300000, guid: c0c5116ae50ed754ab34ae82945d1259, type: 3}
   whereClip: {fileID: 8300000, guid: f687c347de5e7ee4298abf8759c87eed, type: 3}
   whatDescriptionClip: {fileID: 8300000, guid: 0fe439c8e1c12d74486764d9a322dcfc, type: 3}

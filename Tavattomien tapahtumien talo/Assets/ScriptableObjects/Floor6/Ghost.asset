@@ -16,3 +16,7 @@ MonoBehaviour:
   whatKind: puhdas
   where: "vintill\xE4"
   whatDescription: lakana
+  floor: 5
+  whatKindClip: {fileID: 8300000, guid: 271b675881e94da4480f3cce1a350390, type: 3}
+  whereClip: {fileID: 8300000, guid: d86e771b48f914742a67f3b1ad83cb5c, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 372c140a0ad3b0d428bc061e1b6ccead, type: 3}

@@ -16,3 +16,7 @@ MonoBehaviour:
   whatKind: "\xE4\xE4nek\xE4s"
   where: makuuhuoneessa
   whatDescription: "her\xE4tyskello"
+  floor: 4
+  whatKindClip: {fileID: 8300000, guid: 0a893339db9f2104e9ccca6ca019d49a, type: 3}
+  whereClip: {fileID: 8300000, guid: fba09fd4de64ccc45a56aa001c0ed74d, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 4c9eeeacc826fb1408b36b731a9dd8eb, type: 3}

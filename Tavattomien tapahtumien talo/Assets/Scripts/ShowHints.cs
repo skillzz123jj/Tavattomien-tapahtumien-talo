@@ -21,6 +21,8 @@ public class ShowHints : MonoBehaviour
 
     [SerializeField] private GameObject elevatorInstruction;
 
+    [SerializeField] private ChangeFloors changeFloors;
+
 
     void Start()
     {
@@ -51,7 +53,12 @@ public class ShowHints : MonoBehaviour
             
         }
         ShowHint(chosenItem);
-        handleItems.ActivateItem(chosenItem);
+       handleItems.currentItem = chosenItem;
+
+        if (handleItems.currentItem.floor == changeFloors.currentFloorIndex)
+        {
+            handleItems.ActivateItem(handleItems.currentItem);
+        }
     }
 
     public void RemoveItem(Items item)

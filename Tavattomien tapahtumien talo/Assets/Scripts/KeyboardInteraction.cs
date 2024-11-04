@@ -31,9 +31,6 @@ public class KeyboardInteraction : MonoBehaviour
         itemIndicator.transform.position = item.position;
         itemIndicator.SetActive(true);
         isItemChosen = true;
-        //if (rotateAroundItem.isHoveringOverItem)
-        //{
-        //    rotateAroundItem.isHoveringOverItem = false;
-        //}
+
     }
 }

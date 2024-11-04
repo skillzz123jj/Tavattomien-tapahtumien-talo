@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ChangeFloors : MonoBehaviour
 {
     [SerializeField] private List<CinemachineCamera> floors = new List<CinemachineCamera>();
-    private int currentFloorIndex = 1;
+    public int currentFloorIndex = 1;
     [SerializeField] GameObject upArrow;
     [SerializeField] GameObject downArrow;
     [SerializeField] CursorController cursorController;
@@ -22,6 +22,10 @@ public class ChangeFloors : MonoBehaviour
     [SerializeField] private AudioSource idleAudioSource;
     [SerializeField] private Color defaultHighlight;
     [SerializeField] private Color activatedhighlight;
+
+    [SerializeField] private HandleItems handleItems;
+
+
 
 
     void Start()
@@ -48,6 +52,16 @@ public class ChangeFloors : MonoBehaviour
             SetButtonListInteractability(allButtonLists[chosenFloor], true);
            
           
+        }
+        else
+        {
+            SetAllButtonListsInteractable(false);
+
+            if (handleItems.currentItem.floor == currentFloorIndex)
+            {
+
+            handleItems.ActivateItem(handleItems.currentItem);
+            }
         }
      
         for (int i = 0; i < floors.Count; i++)

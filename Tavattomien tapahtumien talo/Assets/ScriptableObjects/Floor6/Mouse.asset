@@ -16,3 +16,7 @@ MonoBehaviour:
   whatKind: punottu
   where: "vintill\xE4"
   whatDescription: pyykkikori
+  floor: 5
+  whatKindClip: {fileID: 8300000, guid: 091fa202969ba434a9c8504b39d42409, type: 3}
+  whereClip: {fileID: 8300000, guid: d86e771b48f914742a67f3b1ad83cb5c, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 73eb2103cf80d9b43bb3e47f4992dfae, type: 3}

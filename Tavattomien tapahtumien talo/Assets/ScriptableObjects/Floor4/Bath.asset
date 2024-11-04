@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Bath
   whatKind: valkoinen
-  where: kylphyhuoneessa
+  where: kylpyhuoneessa
   whatDescription: kylpyamme
+  floor: 3
+  whatKindClip: {fileID: 8300000, guid: 63cd16553cafb1747b26114000be472d, type: 3}
+  whereClip: {fileID: 8300000, guid: bfa7978585374f345a7543490bb84ede, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 3d25d4b86230ff74b9a0cd56e1e600a5, type: 3}

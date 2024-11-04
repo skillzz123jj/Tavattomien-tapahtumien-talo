@@ -16,3 +16,7 @@ MonoBehaviour:
   whatKind: "viihdytt\xE4v\xE4"
   where: olohuoneessa
   whatDescription: televisio
+  floor: 2
+  whatKindClip: {fileID: 8300000, guid: 2a6b04bb4d9549641aa656dbf8dedf62, type: 3}
+  whereClip: {fileID: 8300000, guid: f1532a1554400464ba6e1ec2b3997b84, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 8919856ee0e5cbb49993c4029dfa2af6, type: 3}

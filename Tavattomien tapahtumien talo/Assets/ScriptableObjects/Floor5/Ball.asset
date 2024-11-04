@@ -16,3 +16,7 @@ MonoBehaviour:
   whatKind: "py\xF6riv\xE4"
   where: makuuhuoneessa
   whatDescription: karttapallo
+  floor: 4
+  whatKindClip: {fileID: 8300000, guid: ee4546c3656f15942a66167301c5fa05, type: 3}
+  whereClip: {fileID: 8300000, guid: fba09fd4de64ccc45a56aa001c0ed74d, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 722f4cad14805d8439d1c312e9b6adc4, type: 3}
