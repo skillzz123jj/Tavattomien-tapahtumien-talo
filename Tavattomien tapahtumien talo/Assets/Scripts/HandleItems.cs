@@ -30,11 +30,12 @@ public class HandleItems : MonoBehaviour
   
             if (items.Count <= 0)
             {
-                Invoke("AllItemsDiscovered", 4);
+                Invoke("AllItemsDiscovered", 4.5f);
             }
             if (GameData.Instance.hintsEnabled)
             {
                 showHints.RemoveItem(currentItem);
+                iterateItems.nextIndex = iterateItems.buttons.Count - 2;
             }
         }
 

@@ -4,8 +4,8 @@ using UnityEngine.UI;
 
 public class IterateButtons : MonoBehaviour
 {
-    [SerializeField] List<Button> buttons = new List<Button>();
-    int nextIndex = -1;
+    [SerializeField] public List<Button> buttons = new List<Button>();
+    public int nextIndex = -1;
     public bool isItem;
 
     void Update()

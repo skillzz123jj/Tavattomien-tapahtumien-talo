@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -39,26 +40,31 @@ public class ShowHints : MonoBehaviour
             hintsDisabledBox.SetActive(true);
             InitializeButtons(false);
         }
+        StartCoroutine(ShowInstructions(30));
 
     }
 
     public void ChooseHint()
     {
-        int index = Random.Range(0, items.Count);
-        Items chosenItem = items[index];
-        foreach (var hint in hints)
+        if (items.Count > 0)
         {
+            int index = Random.Range(0, items.Count);
+            Items chosenItem = items[index];
+            foreach (var hint in hints)
+            {
                 hint.GetComponent<RotateButton>().isRotated = true;
                 hint.GetComponent<Button>().onClick.Invoke();
-            
-        }
-        ShowHint(chosenItem);
-       handleItems.currentItem = chosenItem;
 
-        if (handleItems.currentItem.floor == changeFloors.currentFloorIndex)
-        {
-            handleItems.ActivateItem(handleItems.currentItem);
+            }
+            ShowHint(chosenItem);
+            handleItems.currentItem = chosenItem;
+
+            if (handleItems.currentItem.floor == changeFloors.currentFloorIndex)
+            {
+                handleItems.ActivateItem(handleItems.currentItem);
+            }
         }
+       
     }
 
     public void RemoveItem(Items item)
@@ -71,7 +77,6 @@ public class ShowHints : MonoBehaviour
         hint2.GetComponent<TMP_Text>().text = item.where;
         hint3.GetComponent<TMP_Text>().text = item.whatDescription;
 
-        // Check for null before assigning audio clips
         if (item.whatKindClip != null)
         {
             hint1.GetComponent<AudioSource>().clip = item.whatKindClip;
@@ -96,5 +101,16 @@ public class ShowHints : MonoBehaviour
         {
             button.interactable = activated;
         }
+    }
+
+    IEnumerator ShowInstructions(float time)
+    {
+        if (elevatorInstruction != null)
+        {
+            elevatorInstruction.SetActive(true);
+        }
+        yield return new WaitForSeconds(time);
+
+        elevatorInstruction.SetActive(false);
     }
 }

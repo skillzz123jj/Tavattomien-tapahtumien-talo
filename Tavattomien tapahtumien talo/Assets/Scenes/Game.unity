@@ -2797,6 +2797,7 @@ MonoBehaviour:
   - {fileID: 891319858}
   - {fileID: 1256359578}
   - {fileID: 1901779027}
+  nextIndex: -1
   isItem: 0
 --- !u!82 &304042101
 AudioSource:
@@ -4999,7 +5000,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -99, y: 0}
+  m_AnchoredPosition: {x: -116, y: -6}
   m_SizeDelta: {x: 276, y: 248}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &556539322
@@ -9735,7 +9736,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 896322523}
+            m_ObjectArgument: {fileID: 1064463259}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -9815,7 +9816,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 896322523}
+            m_ObjectArgument: {fileID: 1064463259}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -11731,6 +11732,7 @@ MonoBehaviour:
   - {fileID: 1420748145}
   - {fileID: 723721913}
   - {fileID: 1607781582}
+  nextIndex: -1
   isItem: 0
 --- !u!82 &1064463259
 AudioSource:
@@ -12194,6 +12196,7 @@ MonoBehaviour:
   - {fileID: 1420748145}
   - {fileID: 723721913}
   - {fileID: 1607781582}
+  nextIndex: -1
   isItem: 0
 --- !u!1 &1142715635
 GameObject:
@@ -15766,7 +15769,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1403676848}
+            m_ObjectArgument: {fileID: 1064463259}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -15846,7 +15849,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1403676848}
+            m_ObjectArgument: {fileID: 1064463259}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -19250,6 +19253,7 @@ MonoBehaviour:
   - {fileID: 896322519}
   - {fileID: 1917308668}
   - {fileID: 556539323}
+  nextIndex: -1
   isItem: 0
 --- !u!1 &1768068211
 GameObject:
@@ -21863,7 +21867,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1917308672}
+            m_ObjectArgument: {fileID: 1064463259}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -21943,7 +21947,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1917308672}
+            m_ObjectArgument: {fileID: 1064463259}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -26050,6 +26054,7 @@ MonoBehaviour:
   - {fileID: 1420748145}
   - {fileID: 723721913}
   - {fileID: 1607781582}
+  nextIndex: -1
   isItem: 0
 --- !u!224 &9146802076047955044
 RectTransform:
