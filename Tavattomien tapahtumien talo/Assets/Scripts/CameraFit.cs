@@ -7,7 +7,7 @@ public class CameraFit : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteSize;
     [SerializeField] private SpriteRenderer SpriteToFitTo;
 
-
+    [SerializeField] float atticPosition;
      void Update()
     {
         AdjustCameraSize();
@@ -48,11 +48,11 @@ public class CameraFit : MonoBehaviour
 
         if (gameObject.name == "AtticCamera")
         {
-            cam.Lens.OrthographicSize = orthographicSize + 1.5f;
+            cam.Lens.OrthographicSize = orthographicSize + atticPosition;
 
-            float topPositionY = baseSpriteBounds.max.y - (orthographicSize + 1.5f); 
+            float topPositionY = baseSpriteBounds.max.y - (orthographicSize + atticPosition); 
             cam.transform.position = new Vector3(
-                baseSpriteBounds.center.x, 
+                baseSpriteBounds.center.x + 1, 
                 topPositionY,              
                 cam.transform.position.z    
             );
