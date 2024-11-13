@@ -8,7 +8,7 @@ public class CameraFit : MonoBehaviour
     [SerializeField] private SpriteRenderer SpriteToFitTo;
 
     [SerializeField] float atticPosition;
-     void Update()
+    void Update()
     {
         AdjustCameraSize();
     }
@@ -25,7 +25,7 @@ public class CameraFit : MonoBehaviour
 
         //Calculate the bounds of the sprites
         Bounds baseSpriteBounds = spriteSize.bounds;
-        
+
         Bounds actualSpriteBounds = SpriteToFitTo.bounds;
 
         //Get the aspect ratio of the sprite
@@ -46,22 +46,31 @@ public class CameraFit : MonoBehaviour
         // Set the orthographic size of the camera
 
 
+        float spriteWidth = baseSpriteBounds.size.x;
+        float screenAspect = Screen.width / (float)Screen.height;
+        float consistentOrthographicSize = (spriteWidth / 2f) / screenAspect;
+
+        // Apply consistent orthographic size to all cameras
+        cam.Lens.OrthographicSize = consistentOrthographicSize -1;
+
         if (gameObject.name == "AtticCamera")
         {
-            cam.Lens.OrthographicSize = orthographicSize + atticPosition;
-
-            float topPositionY = baseSpriteBounds.max.y - (orthographicSize + atticPosition); 
+            // Align the top of the atticSprite to the top of the screen
+            float topPositionY = baseSpriteBounds.center.y; // - consistentOrthographicSize;
             cam.transform.position = new Vector3(
-                baseSpriteBounds.center.x + 1, 
-                topPositionY,              
-                cam.transform.position.z    
+                baseSpriteBounds.center.x,  // Center horizontally
+                topPositionY,               // Align top of sprite with screen top
+                cam.transform.position.z    // Preserve Z position
             );
         }
         else
         {
-            cam.Lens.OrthographicSize = orthographicSize + 1.5f;
-            cam.transform.position = new Vector3(baseSpriteBounds.center.x + 1f, actualSpriteBounds.center.y - 0.5f, cam.transform.position.z);
-
+            // Position logic for non-attic cameras (use consistent orthographic size)
+            cam.transform.position = new Vector3(
+                baseSpriteBounds.center.x + 0.5f,                // Adjust horizontal position
+                actualSpriteBounds.center.y - 0.5f,            // Adjust vertical position
+                cam.transform.position.z                       // Preserve Z position
+            );
         }
     }
 }
