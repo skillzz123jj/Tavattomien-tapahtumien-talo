@@ -129,10 +129,10 @@ TextureImporter:
       name: output-onlinepngtools (15)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1895
-        height: 770
+        x: 42
+        y: 101
+        width: 1907
+        height: 669
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

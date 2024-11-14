@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fc1d02e172f59384ea13ae9eb3e1ec27
+guid: 97e66728b04f2c94b85117d39547b866
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3655935910222458767
-    second: vintti_levea_0
+      213: 4728393952403248342
+    second: Group 11_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vintti_levea_0
+      name: Group 11_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 4578
-        height: 1720
+        x: 191
+        y: 116
+        width: 2049
+        height: 543
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 170989dd8a1834dc0800000000000000
-      internalID: -3655935910222458767
+      spriteID: 6d4d9136f31ae9140800000000000000
+      internalID: 4728393952403248342
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cc64dc16146e12e43bcf62e948f31218
+    spriteID: 5fa5a34bcd84bd14dbf6c3699eee53a2
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      vintti_levea_0: -3655935910222458767
+      Group 11_0: 4728393952403248342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

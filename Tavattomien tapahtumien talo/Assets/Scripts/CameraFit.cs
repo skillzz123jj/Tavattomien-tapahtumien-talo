@@ -51,12 +51,12 @@ public class CameraFit : MonoBehaviour
         float consistentOrthographicSize = (spriteWidth / 2f) / screenAspect;
 
         // Apply consistent orthographic size to all cameras
-        cam.Lens.OrthographicSize = consistentOrthographicSize -1;
+        cam.Lens.OrthographicSize = consistentOrthographicSize;
 
         if (gameObject.name == "AtticCamera")
         {
             // Align the top of the atticSprite to the top of the screen
-            float topPositionY = baseSpriteBounds.center.y; // - consistentOrthographicSize;
+            float topPositionY = baseSpriteBounds.center.y + atticPosition; // - consistentOrthographicSize;
             cam.transform.position = new Vector3(
                 baseSpriteBounds.center.x,  // Center horizontally
                 topPositionY,               // Align top of sprite with screen top
@@ -67,7 +67,7 @@ public class CameraFit : MonoBehaviour
         {
             // Position logic for non-attic cameras (use consistent orthographic size)
             cam.transform.position = new Vector3(
-                baseSpriteBounds.center.x + 0.5f,                // Adjust horizontal position
+                baseSpriteBounds.center.x,                // Adjust horizontal position
                 actualSpriteBounds.center.y - 0.5f,            // Adjust vertical position
                 cam.transform.position.z                       // Preserve Z position
             );
