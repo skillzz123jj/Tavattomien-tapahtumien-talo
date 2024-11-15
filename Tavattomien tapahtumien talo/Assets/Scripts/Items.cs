@@ -11,5 +11,6 @@ public class Items : ScriptableObject
     public AudioClip whatKindClip;
     public AudioClip whereClip;
     public AudioClip whatDescriptionClip;
+    public bool discoverable;
 
 }

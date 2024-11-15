@@ -21,12 +21,14 @@ public class HandleItems : MonoBehaviour
     public void ItemDiscovered(string item)
     {
         GameObject discovered = items.FirstOrDefault(go => go.name == item);
+        Items itemAsset = showHints.items.FirstOrDefault(go => go.name == item);
         if (discovered != null)
         {
             items.Remove(discovered);
             discovered.GetComponent<AnimateItems>().TriggerAnimation();
             discovered.GetComponent<BoxCollider2D>().enabled = false;
             discovered.GetComponent<AudioSource>().Play();
+            itemAsset.discoverable = false;
   
             if (items.Count <= 0)
             {

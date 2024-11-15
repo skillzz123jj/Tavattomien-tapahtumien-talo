@@ -16,7 +16,7 @@ public class ShowHints : MonoBehaviour
     [SerializeField] private GameObject hint1;
     [SerializeField] private GameObject hint2;
     [SerializeField] private GameObject hint3;
-    [SerializeField] private List<Items> items = new List<Items>();
+    [SerializeField] public List<Items> items = new List<Items>();
 
     [SerializeField] private HandleItems handleItems;
 
@@ -36,6 +36,7 @@ public class ShowHints : MonoBehaviour
         }
         else
         {
+            ResetItems(true);
             hintsEnabledBox.SetActive(false);
             hintsDisabledBox.SetActive(true);
             InitializeButtons(false);
@@ -48,6 +49,7 @@ public class ShowHints : MonoBehaviour
     {
         if (items.Count > 0)
         {
+            ResetItems(false);
             int index = Random.Range(0, items.Count);
             Items chosenItem = items[index];
             foreach (var hint in hints)
@@ -58,6 +60,7 @@ public class ShowHints : MonoBehaviour
             }
             ShowHint(chosenItem);
             handleItems.currentItem = chosenItem;
+            chosenItem.discoverable = true;
 
             if (handleItems.currentItem.floor == changeFloors.currentFloorIndex)
             {
@@ -112,5 +115,13 @@ public class ShowHints : MonoBehaviour
         yield return new WaitForSeconds(time);
 
         elevatorInstruction.SetActive(false);
+    }
+
+    private void ResetItems(bool activate)
+    {
+        foreach(Items item in items)
+        {
+            item.discoverable = activate;
+        }
     }
 }

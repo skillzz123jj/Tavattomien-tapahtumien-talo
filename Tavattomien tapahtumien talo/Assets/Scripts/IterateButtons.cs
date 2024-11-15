@@ -7,6 +7,7 @@ public class IterateButtons : MonoBehaviour
     [SerializeField] public List<Button> buttons = new List<Button>();
     public int nextIndex = -1;
     public bool isItem;
+ 
 
     void Update()
     {
@@ -18,6 +19,10 @@ public class IterateButtons : MonoBehaviour
             }
             while (!buttons[nextIndex].interactable || !buttons[nextIndex].gameObject.activeSelf);
             isItem = buttons[nextIndex].CompareTag("Item");
+            //if (isItem && buttons[nextIndex].gameObject.GetComponent<BoxCollider2D>().enabled)
+            //{
+            //    itemIndicator.SetActive(true);
+            //}
             buttons[nextIndex].Select();
         }
     }

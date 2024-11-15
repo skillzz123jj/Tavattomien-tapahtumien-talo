@@ -20,3 +20,4 @@ MonoBehaviour:
   whatKindClip: {fileID: 8300000, guid: 21864ad5e16239246b1128c6ddcb55b1, type: 3}
   whereClip: {fileID: 8300000, guid: f687c347de5e7ee4298abf8759c87eed, type: 3}
   whatDescriptionClip: {fileID: 8300000, guid: b512b97cf9e0c8a47869210443f91dae, type: 3}
+  discoverable: 0

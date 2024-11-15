@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class MouseInteraction : MonoBehaviour
 {
@@ -21,7 +21,7 @@ public class MouseInteraction : MonoBehaviour
             {
                 GameObject clickedObject = hit.collider.gameObject;
                 handleItems.ItemDiscovered(clickedObject.name);
-                iterateButtons.RemoveButton(hit.collider.gameObject.GetComponent<Button>());
+               // iterateButtons.RemoveButton(hit.collider.gameObject.GetComponent<Button>());
             }
         }
     }

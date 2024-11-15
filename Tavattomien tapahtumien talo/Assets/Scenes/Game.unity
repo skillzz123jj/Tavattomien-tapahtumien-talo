@@ -1159,6 +1159,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 02082dc2c4385d14d948bdac3743d003, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -1992,7 +2004,7 @@ GameObject:
   - component: {fileID: 215066037}
   - component: {fileID: 215066036}
   m_Layer: 3
-  m_Name: Pile
+  m_Name: Logs
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2265,6 +2277,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 8475cde53a983ed4fbdd59298c1febae, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -2696,6 +2720,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: eaadd44267274a849b09e59282607714, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -4089,6 +4125,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: caba0cde7044c5f4e97f2891cb5c6e5e, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -4583,6 +4631,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 7b52b238465f326469e1bc253a626608, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: DiscoverItem
@@ -5933,6 +5993,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: c50497521111c184088be29623aafbab, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -6766,6 +6838,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 235cf79777bc1304b8aaa8edf88fdcdc, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -8242,6 +8326,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 842cdd0c2c47fcb47ba1fb737dc7ef96, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -10157,6 +10253,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 16f031ee87e1c174ea46eeacc61e4028, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -10585,6 +10693,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 987a689e6eb07d843ba798489b9dd1a7, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -13015,6 +13135,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 29fbeae3f80407341920259e43f3fb17, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -14368,6 +14500,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: e2c0c7f48bc6a6b408b8e4284f8def00, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -14796,6 +14940,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 8ffa16d4ef07d8c4989e52eb2b279d21, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -16163,6 +16319,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 6ea1e74cadb40c840897df4a564f5ba2, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -19001,6 +19169,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: b2d81f9aeab3eaf4f97fcee434259403, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -22526,6 +22706,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: d99792fcc8a7a63439efb8bf9c591ac9, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -25297,6 +25489,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 18661d2e75a0d0043a091f2f5f092312, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -25713,6 +25917,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 3a970ffd872d1df4f835306266ec53f0, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -26326,6 +26542,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: f0c76477bd300a74bbc68991bf6c9c35, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -26754,6 +26982,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 0943a7dff4ec8294a924cfce880022b0, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -27288,6 +27528,18 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: dadc1bad7b9d2ef4caa47f72e7244af6, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
           m_Mode: 2
           m_Arguments:
@@ -27704,6 +27956,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 53f2094ba91787c48a72ee35c3a5da5b, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
@@ -28502,6 +28766,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: e86f823d0c19bd84487f0f3fd58e1220, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
           m_MethodName: MoveIndicator
