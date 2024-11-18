@@ -229,7 +229,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1075,6 +1075,7 @@ MonoBehaviour:
   - {fileID: 694742391417229499}
   - {fileID: 694742391528463528}
   - {fileID: 694742391782765030}
+  nextIndex: -1
   isItem: 0
 --- !u!1 &1751104426
 GameObject:
@@ -1681,7 +1682,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -6448,6 +6449,7 @@ MonoBehaviour:
   - {fileID: 2379476714569081152}
   - {fileID: 3686744599693988872}
   - {fileID: 8394516809869392298}
+  nextIndex: -1
   isItem: 0
 --- !u!222 &8394516811752570116
 CanvasRenderer:

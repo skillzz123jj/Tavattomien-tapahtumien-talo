@@ -7,6 +7,7 @@ public class KeyboardInteraction : MonoBehaviour
     [SerializeField] private GameObject itemIndicator;
     [SerializeField] private IterateButtons iterateButtons;
     [SerializeField] private RotateAroundItem rotateAroundItem;
+    [SerializeField] private IterateButtons iterateItems;
     public bool isItemChosen;
     Items currentItem;
     void Update()
@@ -23,10 +24,14 @@ public class KeyboardInteraction : MonoBehaviour
     }
     public void DiscoverItem(GameObject item)
     {
+        if (currentItem.discoverable)
+        {
         handleItems.ItemDiscovered(item.name);
        // iterateButtons.RemoveButton(item.GetComponent<Button>());
-        isItemChosen = false;
         itemIndicator.SetActive(false);
+        isItemChosen = false;
+
+        }
      
     }
 
@@ -43,6 +48,25 @@ public class KeyboardInteraction : MonoBehaviour
             itemIndicator.SetActive(false);
         }
         itemIndicator.transform.position = item.position;
+
+    }
+
+    public void ItemBounds(GameObject bounds)
+    {
+        if (currentItem.discoverable)
+        {
+            bounds.SetActive(false);
+        }
+    }
+
+    public void ChangeButtonIndex(int index)
+    {
+        if (handleItems.itemDiscovered)
+        {
+        iterateItems.nextIndex = iterateItems.buttons.Count - index;
+        handleItems.itemDiscovered = false;
+            
+        }
 
     }
 }

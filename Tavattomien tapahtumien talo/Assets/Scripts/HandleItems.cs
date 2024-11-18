@@ -9,6 +9,7 @@ public class HandleItems : MonoBehaviour
     [SerializeField] private GameObject gameOver;
     [SerializeField] private IterateButtons iterateItems;
     [SerializeField] private ShowHints showHints;
+    public bool itemDiscovered;
     public Items currentItem;
 
     private void Start()
@@ -38,6 +39,7 @@ public class HandleItems : MonoBehaviour
             {
                 showHints.RemoveItem(currentItem);
                 iterateItems.nextIndex = iterateItems.buttons.Count - 2;
+                itemDiscovered = true;
             }
         }
 

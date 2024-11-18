@@ -145,8 +145,8 @@ Transform:
   m_GameObject: {fileID: 5463861}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100.1, y: 35.6, z: 3.3983}
-  m_LocalScale: {x: 0.9376, y: 0.9376, z: 0.9376}
+  m_LocalPosition: {x: 100.1, y: 33.4953, z: 3.5227}
+  m_LocalScale: {x: 1.0085764, y: 1.0085764, z: 1.0085764}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 642610501}
@@ -1199,23 +1199,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 57173381}
+            m_ObjectArgument: {fileID: 477147652}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 477147652}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 57173381}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -2319,23 +2319,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 215066028}
+            m_ObjectArgument: {fileID: 1826966677}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1826966677}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 215066028}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -2762,23 +2762,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 264085942}
+            m_ObjectArgument: {fileID: 104006419}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 104006419}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 264085942}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -4165,23 +4165,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 358084714}
+            m_ObjectArgument: {fileID: 969431006}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 969431006}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 358084714}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -4633,11 +4633,11 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: CurrentItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 7b52b238465f326469e1bc253a626608, type: 2}
-            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
+            m_ObjectArgument: {fileID: 304973498}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -4655,29 +4655,17 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 304973498}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
   - eventID: 9
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 304973498}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: CurrentItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 11400000, guid: 7b52b238465f326469e1bc253a626608, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Items, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -4690,6 +4678,18 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 2106278588}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 304973498}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -5005,6 +5005,7 @@ MonoBehaviour:
   gameOver: {fileID: 9146802075735002454}
   iterateItems: {fileID: 1751836665}
   showHints: {fileID: 1610368226}
+  itemDiscovered: 0
   currentItem: {fileID: 0}
 --- !u!1 &477147652
 GameObject:
@@ -6033,23 +6034,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 535667211}
+            m_ObjectArgument: {fileID: 158472813}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 158472813}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 535667211}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -6342,6 +6343,42 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 1403676848}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Stop
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 896322523}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Stop
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1917308672}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Stop
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 1064463259}
           m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_MethodName: PlayOneShot
@@ -6350,6 +6387,18 @@ MonoBehaviour:
             m_ObjectArgument: {fileID: 8300000, guid: ecfe893c06501974c93328507a05f5dc, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: ChangeButtonIndex
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
@@ -6880,23 +6929,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 568197546}
+            m_ObjectArgument: {fileID: 809119925}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 809119925}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 568197546}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -8020,6 +8069,7 @@ MonoBehaviour:
   itemIndicator: {fileID: 1957582711}
   iterateButtons: {fileID: 1751836665}
   rotateAroundItem: {fileID: 1512465978}
+  iterateItems: {fileID: 1751836665}
   isItemChosen: 0
 --- !u!4 &726626611
 Transform:
@@ -8368,23 +8418,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 732013221}
+            m_ObjectArgument: {fileID: 1081372268}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1081372268}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 732013221}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -10293,23 +10343,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 857604604}
+            m_ObjectArgument: {fileID: 2135477708}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 2135477708}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 857604604}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -10735,23 +10785,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 860970802}
+            m_ObjectArgument: {fileID: 282938687}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 282938687}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 860970802}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -12196,8 +12246,8 @@ Transform:
   m_GameObject: {fileID: 968053617}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.8501, y: 16.8, z: 0.1094}
-  m_LocalScale: {x: 0.9376, y: 0.9376, z: 0.9376}
+  m_LocalPosition: {x: 100.9069, y: 13.2729, z: -0.015}
+  m_LocalScale: {x: 1.0085764, y: 1.0085764, z: 1.0085764}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 26315703}
@@ -13175,23 +13225,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1000057430}
+            m_ObjectArgument: {fileID: 2037115424}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 2037115424}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1000057430}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -13482,7 +13532,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -45.13639, y: 105.5}
-  m_SizeDelta: {x: 1358.7, y: 167}
+  m_SizeDelta: {x: 1358.7, y: 170.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1064463256
 MonoBehaviour:
@@ -13504,7 +13554,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 757c511db2d69a542878125f446d0c6a, type: 3}
+  m_Sprite: {fileID: 2156207360419239225, guid: 290d0bf9f57b69b4a9aae38089dacc68, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14059,7 +14109,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 757c511db2d69a542878125f446d0c6a, type: 3}
+  m_Sprite: {fileID: 9091408983750805061, guid: 2428ccdd678ebf34d8f6f6a0dd12393f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14540,23 +14590,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1151147324}
+            m_ObjectArgument: {fileID: 498889042}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 498889042}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1151147324}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -14982,23 +15032,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1169918205}
+            m_ObjectArgument: {fileID: 157650700}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 157650700}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1169918205}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -15297,7 +15347,7 @@ Transform:
   m_GameObject: {fileID: 1201789668}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.78416, y: 225.89209, z: -74.56988}
+  m_LocalPosition: {x: 97.60884, y: 238.19296, z: -80.34768}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16361,23 +16411,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1220925862}
+            m_ObjectArgument: {fileID: 18183152}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 18183152}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1220925862}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -16426,8 +16476,8 @@ Transform:
   m_GameObject: {fileID: 1238540373}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100.1, y: 25.4, z: 3.3983}
-  m_LocalScale: {x: 0.9376, y: 0.9376, z: 0.9376}
+  m_LocalPosition: {x: 100.1, y: 22.5236, z: 3.5227}
+  m_LocalScale: {x: 1.0085764, y: 1.0085764, z: 1.0085764}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 31830744}
@@ -17118,8 +17168,8 @@ Transform:
   m_GameObject: {fileID: 1298775134}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 102.069, y: 58.66, z: 3.3983}
-  m_LocalScale: {x: 0.9376, y: 0.9376, z: 0.9376}
+  m_LocalPosition: {x: 102.218, y: 58.3, z: 3.5227}
+  m_LocalScale: {x: 1.0085764, y: 1.0085764, z: 1.0085764}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 802289692}
@@ -19211,23 +19261,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1470200025}
+            m_ObjectArgument: {fileID: 1723772928}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1723772928}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1470200025}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -21881,7 +21931,7 @@ Transform:
   m_GameObject: {fileID: 1768068211}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.43, y: 0.83, z: 79.649475}
+  m_LocalPosition: {x: 3.9, y: 0.96, z: 79.649475}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22746,23 +22796,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1819213643}
+            m_ObjectArgument: {fileID: 2129639315}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 2129639315}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1819213643}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -23152,8 +23202,8 @@ Transform:
   m_GameObject: {fileID: 1860325928}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100.1, y: 46.3, z: 3.3983}
-  m_LocalScale: {x: 0.9376, y: 0.9376, z: 0.9376}
+  m_LocalPosition: {x: 100.1, y: 45.0048, z: 3.5227}
+  m_LocalScale: {x: 1.0085764, y: 1.0085764, z: 1.0085764}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 369127419}
@@ -25529,23 +25579,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1918333499}
+            m_ObjectArgument: {fileID: 1714529180}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1714529180}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1918333499}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -25959,23 +26009,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1934905567}
+            m_ObjectArgument: {fileID: 1780800782}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1780800782}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1934905567}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -26582,23 +26632,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1952823553}
+            m_ObjectArgument: {fileID: 1414513689}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1414513689}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1952823553}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -27024,23 +27074,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1954986264}
+            m_ObjectArgument: {fileID: 31164277}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 31164277}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1954986264}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -27568,23 +27618,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1985912083}
+            m_ObjectArgument: {fileID: 983055409}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 983055409}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1985912083}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -27998,23 +28048,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2013863104}
+            m_ObjectArgument: {fileID: 1260120694}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1260120694}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 2013863104}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -28808,23 +28858,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 726626610}
           m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
-          m_MethodName: DiscoverItem
+          m_MethodName: ItemBounds
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 2124497378}
+            m_ObjectArgument: {fileID: 523045384}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 523045384}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 726626610}
+          m_TargetAssemblyTypeName: KeyboardInteraction, Assembly-CSharp
+          m_MethodName: DiscoverItem
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 2124497378}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 

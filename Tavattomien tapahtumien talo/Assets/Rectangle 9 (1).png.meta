@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5210e290b09dd8444945d4810a8577f9
+guid: 2428ccdd678ebf34d8f6f6a0dd12393f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5745873558899666391
-    second: palkki_0
+      213: 9091408983750805061
+    second: Rectangle 9 (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -126,133 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: palkki_0
+      name: Rectangle 9 (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 230
-        width: 79
-        height: 53
+        y: 0
+        width: 1621
+        height: 130
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dd26821f817dbf40800000000000000
-      internalID: 5745873558899666391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palkki_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 182
-        width: 79
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28e9c81c54c41734abd4d596e9cd9388
-      internalID: -1094559925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palkki_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 139
-        width: 79
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e421d3fe4e5c4e40b9c2fe2aea2b285
-      internalID: 1701111620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palkki_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 94
-        width: 79
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b9775f690389cd47b95a8a7601b0308
-      internalID: -1033238236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palkki_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 45
-        width: 79
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 719a84eb5934c9c4297aa0f92d2422e1
-      internalID: 1109863926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palkki_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 79
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93fd6a43023691f48959c44941dab70f
-      internalID: -1520036271
+      spriteID: 54603486d4c2b2e70800000000000000
+      internalID: 9091408983750805061
       vertices: []
       indices: 
       edges: []
@@ -261,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6049b7c07b7fd9f4ebfea49c8ab48dab
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -270,13 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      palkki_0: 5745873558899666391
-      palkki_1: -1094559925
-      palkki_2: 1701111620
-      palkki_3: -1033238236
-      palkki_4: 1109863926
-      palkki_5: -1520036271
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

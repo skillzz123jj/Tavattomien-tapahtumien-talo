@@ -18,11 +18,7 @@ public class IterateButtons : MonoBehaviour
                 nextIndex = (nextIndex + 1) % buttons.Count;
             }
             while (!buttons[nextIndex].interactable || !buttons[nextIndex].gameObject.activeSelf);
-            isItem = buttons[nextIndex].CompareTag("Item");
-            //if (isItem && buttons[nextIndex].gameObject.GetComponent<BoxCollider2D>().enabled)
-            //{
-            //    itemIndicator.SetActive(true);
-            //}
+            isItem = buttons[nextIndex].CompareTag("Item");  
             buttons[nextIndex].Select();
         }
     }

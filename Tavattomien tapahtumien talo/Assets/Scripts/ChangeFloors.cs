@@ -56,6 +56,7 @@ public class ChangeFloors : MonoBehaviour
         else
         {
             SetAllButtonListsInteractable(false);
+            SetButtonListInteractability(allButtonLists[chosenFloor], true);
 
             if (handleItems.currentItem.floor == currentFloorIndex)
             {
