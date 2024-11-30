@@ -41,7 +41,7 @@ public class ShowHints : MonoBehaviour
             hintsDisabledBox.SetActive(true);
             InitializeButtons(false);
         }
-        StartCoroutine(ShowInstructions(30));
+        StartCoroutine(ShowInstructions(20));
 
     }
 
