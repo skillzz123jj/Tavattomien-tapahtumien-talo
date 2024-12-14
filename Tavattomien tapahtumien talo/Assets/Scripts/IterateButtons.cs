@@ -8,7 +8,7 @@ public class IterateButtons : MonoBehaviour
     public int nextIndex = -1;
     public bool isItem;
  
-
+    //Iterates buttons and items for keyboard gameplay
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Tab))

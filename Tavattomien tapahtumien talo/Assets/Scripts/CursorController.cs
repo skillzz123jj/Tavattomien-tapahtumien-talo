@@ -6,10 +6,11 @@ public class CursorController : MonoBehaviour
     public Texture2D hoverCursor;
     public bool hovering;
     public RotateAroundItem rotateAroundItem;
-    [SerializeField] Vector2 hotspotDefault = new Vector2(8, 5);
-    [SerializeField] Vector2 hotspotHover = new Vector2(10, 6);
-    [SerializeField] private LayerMask clickableLayer;
     public static CursorController cursor;
+
+    [SerializeField] private Vector2 hotspotDefault = new Vector2(8, 5);
+    [SerializeField] private Vector2 hotspotHover = new Vector2(10, 6);
+    [SerializeField] private LayerMask clickableLayer;
     
 
     public void ChangeCursor(Texture2D cursorType, Vector2 hotspot)
@@ -26,7 +27,6 @@ public class CursorController : MonoBehaviour
         else
         {
             ChangeCursor(defaultCursor, hotspotDefault);
-
         }
     }
     public void Hovering()
@@ -44,10 +44,8 @@ public class CursorController : MonoBehaviour
 
         RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero, Mathf.Infinity, clickableLayer);
 
-
         if (hit)
-        {
- 
+        { 
                 if (hit.collider.gameObject.CompareTag("Item"))
                 {
                 if (rotateAroundItem != null)

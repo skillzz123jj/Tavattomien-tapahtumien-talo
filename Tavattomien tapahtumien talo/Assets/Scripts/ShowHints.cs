@@ -24,7 +24,6 @@ public class ShowHints : MonoBehaviour
 
     [SerializeField] private ChangeFloors changeFloors;
 
-
     void Start()
     {
         if (GameData.Instance.hintsEnabled)
@@ -67,7 +66,6 @@ public class ShowHints : MonoBehaviour
                 handleItems.ActivateItem(handleItems.currentItem);
             }
         }
-       
     }
 
     public void RemoveItem(Items item)
@@ -76,9 +74,9 @@ public class ShowHints : MonoBehaviour
     }
     public void ShowHint(Items item)
     {
-        hint1.GetComponent<TMP_Text>().text = item.whatKind;
-        hint2.GetComponent<TMP_Text>().text = item.where;
-        hint3.GetComponent<TMP_Text>().text = item.whatDescription;
+        hint1.GetComponent<TMP_Text>().text = item.whatKindClip.name;
+        hint2.GetComponent<TMP_Text>().text = item.whereClip.name;
+        hint3.GetComponent<TMP_Text>().text = item.whatDescriptionClip.name;
 
         if (item.whatKindClip != null)
         {
@@ -94,8 +92,6 @@ public class ShowHints : MonoBehaviour
         {
             hint3.GetComponent<AudioSource>().clip = item.whatDescriptionClip;
         }
-
-
     }
 
     private void InitializeButtons(bool activated)

@@ -6,11 +6,12 @@ using TMPro;
 
 public class HandleItems : MonoBehaviour
 {
-    [SerializeField] public List<GameObject> items = new List<GameObject>();
     [SerializeField] private GameObject gameOver;
     [SerializeField] private IterateButtons iterateItems;
     [SerializeField] private ShowHints showHints;
-    [SerializeField] TMP_Text itemCount;
+    [SerializeField] private TMP_Text itemCount;
+
+    [SerializeField] public List<GameObject> items = new List<GameObject>();
     public bool itemDiscovered;
     public Items currentItem;
 
@@ -23,6 +24,7 @@ public class HandleItems : MonoBehaviour
         itemCount.text =  $"Yllätyksiä jäljellä: {items.Count}";
 
     }
+    //When an item has been discovered it gets removed from the item list and deactivated
     public void ItemDiscovered(string item)
     {
         GameObject discovered = items.FirstOrDefault(go => go.name == item);
@@ -36,7 +38,6 @@ public class HandleItems : MonoBehaviour
             itemAsset.discoverable = false;
             itemCount.text = $"Yllätyksiä jäljellä: {items.Count}";
 
-
             if (items.Count <= 0)
             {
                 Invoke("AllItemsDiscovered", 4.5f);
@@ -48,15 +49,12 @@ public class HandleItems : MonoBehaviour
                 itemDiscovered = true;
             }
         }
-
     }
 
     void AllItemsDiscovered()
     {
-        
             gameOver.SetActive(true);
-            iterateItems.enabled = false;
-        
+            iterateItems.enabled = false;   
     }
 
 

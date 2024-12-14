@@ -4,9 +4,6 @@ using UnityEngine;
 public class Items : ScriptableObject
 {
     public string itemName;
-    public string whatKind;
-    public string where;
-    public string whatDescription;
     public int floor; 
     public AudioClip whatKindClip;
     public AudioClip whereClip;

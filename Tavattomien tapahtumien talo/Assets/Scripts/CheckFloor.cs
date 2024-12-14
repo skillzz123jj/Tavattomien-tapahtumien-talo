@@ -4,12 +4,11 @@ using UnityEngine.UI;
 
 public class CheckFloor : MonoBehaviour
 {
-
     [SerializeField] private Dictionary<string, GameObject> floorButtons = new Dictionary<string, GameObject>();
     [SerializeField] private List<GameObject> floorButtonsList = new List<GameObject>();
-    private GameObject previousFloor;
     [SerializeField] private GameObject currentFloor;
     [SerializeField] private Color highlightColor;
+    private GameObject previousFloor;
 
     void Start()
     {

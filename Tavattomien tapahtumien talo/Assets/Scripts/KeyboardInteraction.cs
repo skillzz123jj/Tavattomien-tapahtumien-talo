@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class KeyboardInteraction : MonoBehaviour
 {
@@ -10,6 +9,8 @@ public class KeyboardInteraction : MonoBehaviour
     [SerializeField] private IterateButtons iterateItems;
     public bool isItemChosen;
     Items currentItem;
+
+    //Handles actions on keyboard
     void Update()
     {
         if (!iterateButtons.isItem)
@@ -27,7 +28,6 @@ public class KeyboardInteraction : MonoBehaviour
         if (currentItem.discoverable)
         {
         handleItems.ItemDiscovered(item.name);
-       // iterateButtons.RemoveButton(item.GetComponent<Button>());
         itemIndicator.SetActive(false);
         isItemChosen = false;
 

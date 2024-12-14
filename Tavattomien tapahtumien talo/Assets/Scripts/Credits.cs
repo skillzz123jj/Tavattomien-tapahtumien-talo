@@ -10,7 +10,6 @@ public class Credits : MonoBehaviour
     [SerializeField] string openCreditsTextContent;
     [SerializeField] GameObject instructions;
 
-    // Update is called once per frame
     void Update()
     {
         if (!instructions.activeSelf && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Tab)))

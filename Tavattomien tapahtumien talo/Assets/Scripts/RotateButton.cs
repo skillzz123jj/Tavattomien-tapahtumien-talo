@@ -8,9 +8,9 @@ public class RotateButton : MonoBehaviour
     public GameObject openHint;
     public GameObject hint;
 
-    [SerializeField] AudioSource _source;
-    [SerializeField] AudioClip questionClip;
-    [SerializeField] GameObject answerClip;
+    [SerializeField] private AudioSource _source;
+    [SerializeField] private AudioClip questionClip;
+    [SerializeField] private GameObject answerClip;
     AudioClip currentClip;
     private bool isRotating = false;
     public bool isRotated = true;
@@ -23,6 +23,7 @@ public class RotateButton : MonoBehaviour
         StartCoroutine(RotateObject());
     }
 
+    //Rotates the hint buttons once they are pressed
     private IEnumerator RotateObject()
     {
         float elapsed = 0f;
@@ -51,11 +52,8 @@ public class RotateButton : MonoBehaviour
             hint.SetActive(true);
             if (answerClip.GetComponent<AudioSource>().clip != null)
             {
-            currentClip = answerClip.GetComponent<AudioSource>().clip;
+                currentClip = answerClip.GetComponent<AudioSource>().clip;
                 PlayAudio(_source);
-             
-
-
             }
         }
         else
@@ -74,16 +72,12 @@ public class RotateButton : MonoBehaviour
 
         if (source.isPlaying && currentClip == lastPlayedClip)
         {
-            // Do nothing if the same clip is already playing
             return;
         }
-
-
-        // If a different clip is requested, stop the current one and play the new one
+     
         source.Stop();
         source.PlayOneShot(currentClip);
 
-        // Update the last played clip
         lastPlayedClip = currentClip;
     }
 }

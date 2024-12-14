@@ -7,8 +7,8 @@ public class ChangeFloors : MonoBehaviour
 {
     [SerializeField] private List<CinemachineCamera> floors = new List<CinemachineCamera>();
     public int currentFloorIndex = 1;
-    [SerializeField] GameObject upArrow;
-    [SerializeField] GameObject downArrow;
+    [SerializeField] private GameObject upArrow;
+    [SerializeField] private GameObject downArrow;
     [SerializeField] CursorController cursorController;
     [SerializeField] List<Button> floor1Items = new List<Button>();
     [SerializeField] List<Button> floor2Items = new List<Button>();
@@ -19,14 +19,13 @@ public class ChangeFloors : MonoBehaviour
     private List<List<Button>> allButtonLists;
     [SerializeField] private List<Button> floorSelctionButtons = new List<Button>();
     [SerializeField] private List<AudioClip> idleAudioClips = new List<AudioClip>();
+    List<int> playedClips = new List<int>();
+
     [SerializeField] private AudioSource idleAudioSource;
+
     [SerializeField] private Color defaultHighlight;
     [SerializeField] private Color activatedhighlight;
-
     [SerializeField] private HandleItems handleItems;
-
-
-
 
     void Start()
     {
@@ -36,7 +35,7 @@ public class ChangeFloors : MonoBehaviour
         SetAllButtonListsInteractable(false);
         ChangeFloor(1);
     }
-        public void ChangeFloor(int chosenFloor)
+    public void ChangeFloor(int chosenFloor)
     {
         CinemachineCamera cam = floors[chosenFloor];
         cam.Priority = 1;
@@ -50,8 +49,6 @@ public class ChangeFloors : MonoBehaviour
         {
             SetAllButtonListsInteractable(false);
             SetButtonListInteractability(allButtonLists[chosenFloor], true);
-           
-          
         }
         else
         {
@@ -88,6 +85,7 @@ public class ChangeFloors : MonoBehaviour
 
     }
 
+    //Changes the elevators highlight color
     public void ChangeColor(Button button)
     {
         ResetFloorButtonColors();
@@ -96,7 +94,6 @@ public class ChangeFloors : MonoBehaviour
         cb.highlightedColor = activatedhighlight;
         cb.selectedColor = activatedhighlight;
         button.colors = cb;
-
     }
 
     private void CheckFloorStatus()
@@ -149,35 +146,28 @@ public class ChangeFloors : MonoBehaviour
             button.colors = cb;
         }
     }
-    List<int> playedClips = new List<int>();
 
+    //Plays the audio for the floors only once when player goes to that floor
     private void PlayAudio(int chosenFloor)
     {
         if (idleAudioSource.isPlaying)
         {
             idleAudioSource.Stop();
         }
-        // Check if the audio for this floor has already been played
+
         if (playedClips.Contains(chosenFloor))
         {
-            return; // Exit if the clip for this floor has already been played
+            return; 
         }
-
-        // Get the audio clip for the chosen floor
         AudioClip clip = idleAudioClips[chosenFloor];
 
         if (clip == null)
         {
-            return; // Exit if there's no audio clip for this floor
+            return; 
         }
 
-       
-        // Play the audio and add the chosen floor to the played clips list
         idleAudioSource.PlayOneShot(clip);
-        playedClips.Add(chosenFloor);  // Mark this floor as having played its clip
-
-        // Optional: if you still want to remove the clip, this line remains
-        // idleAudioClips.Remove(clip); // If you don't want to remove the clip, remove this line
+        playedClips.Add(chosenFloor); 
     }
 
 }

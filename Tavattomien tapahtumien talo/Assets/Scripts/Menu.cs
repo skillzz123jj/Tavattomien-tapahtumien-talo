@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
-    [SerializeField] AudioSource _audioSource;
-    [SerializeField] Button stopAudioButton;
-    [SerializeField] GameObject muteAudioButton;
-    [SerializeField] GameObject unmuteAudioButton;
-    Coroutine instructionsCoroutine;
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private Button stopAudioButton;
+    [SerializeField] private GameObject muteAudioButton;
+    [SerializeField] private GameObject unmuteAudioButton;
+    private Coroutine instructionsCoroutine;
     private void Start()
     {
         if (GameData.Instance.isAudioMuted)
