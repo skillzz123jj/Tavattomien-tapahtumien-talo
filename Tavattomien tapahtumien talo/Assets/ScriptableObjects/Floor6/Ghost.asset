@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Ghost
   m_EditorClassIdentifier: 
   itemName: Ghost
-  whatKind: puhdas
-  where: "vintill\xE4"
-  whatDescription: lakana
   floor: 5
-  whatKindClip: {fileID: 8300000, guid: 271b675881e94da4480f3cce1a350390, type: 3}
-  whereClip: {fileID: 8300000, guid: d86e771b48f914742a67f3b1ad83cb5c, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 372c140a0ad3b0d428bc061e1b6ccead, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 4150cd023bf26d84e843bebbd20c2e94, type: 3}
+  whereClip: {fileID: 8300000, guid: 44d615a121eb17e4599000fd3b66d970, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 3f01008b3bb5e8a449cdcfa940799aea, type: 3}
+  discoverable: 0

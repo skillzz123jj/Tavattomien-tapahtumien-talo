@@ -3490,8 +3490,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a03ae6bcc2aed5942bd9fa365e769420, type: 3}
-  m_Resource: {fileID: 8300000, guid: a03ae6bcc2aed5942bd9fa365e769420, type: 3}
+  m_audioClip: {fileID: 8300000, guid: efcb5868af913594c87f27f0f69a52ce, type: 3}
+  m_Resource: {fileID: 8300000, guid: efcb5868af913594c87f27f0f69a52ce, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5110,6 +5110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0abc9b203fc49484b896734d5931c0a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 9146802075735002454}
+  iterateItems: {fileID: 1751836665}
+  showHints: {fileID: 1610368226}
+  itemCount: {fileID: 481678002}
   items:
   - {fileID: 464254390}
   - {fileID: 1000057430}
@@ -5134,10 +5138,6 @@ MonoBehaviour:
   - {fileID: 1954986264}
   - {fileID: 1220925862}
   - {fileID: 2124497378}
-  gameOver: {fileID: 9146802075735002454}
-  iterateItems: {fileID: 1751836665}
-  showHints: {fileID: 1610368226}
-  itemCount: {fileID: 481678002}
   itemDiscovered: 0
   currentItem: {fileID: 0}
 --- !u!1 &477147652
@@ -6527,7 +6527,7 @@ MonoBehaviour:
           m_MethodName: PlayOneShot
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: ecfe893c06501974c93328507a05f5dc, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: d30e0d381603b68489f9391df611170d, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -6655,7 +6655,7 @@ MonoBehaviour:
           m_MethodName: PlayOneShot
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: ecfe893c06501974c93328507a05f5dc, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: d30e0d381603b68489f9391df611170d, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -11727,7 +11727,7 @@ MonoBehaviour:
   openHint: {fileID: 1847165498}
   hint: {fileID: 1401833541}
   _source: {fileID: 896322523}
-  questionClip: {fileID: 8300000, guid: 14b655ec6984f324d883dc94cc244aee, type: 3}
+  questionClip: {fileID: 8300000, guid: 50ca074921e00804b8f513d0071cc331, type: 3}
   answerClip: {fileID: 1401833541}
   isRotated: 0
 --- !u!82 &896322523
@@ -11740,8 +11740,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 14b655ec6984f324d883dc94cc244aee, type: 3}
-  m_Resource: {fileID: 8300000, guid: 14b655ec6984f324d883dc94cc244aee, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 50ca074921e00804b8f513d0071cc331, type: 3}
+  m_Resource: {fileID: 8300000, guid: 50ca074921e00804b8f513d0071cc331, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -11839,7 +11839,7 @@ GameObject:
   - component: {fileID: 929230849}
   - component: {fileID: 929230848}
   m_Layer: 5
-  m_Name: Content(F)
+  m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11884,13 +11884,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n<size=35>\n\n<b>Ohjeet</b>\n\nTavattomien tapahtumien talossa tavallisille
-    esineille tapahtuu yll\xE4tt\xE4vi\xE4 asioita. Voit pelata peli\xE4 hiirell\xE4
-    tai painikkeilla.\n\r\nTeht\xE4v\xE4n\xE4si on etsi\xE4 yll\xE4tyksi\xE4 talon
-    eri huoneista. Tunnistat yll\xE4tyksen esineen p\xE4\xE4lle ilmestyv\xE4st\xE4
-    kuplasta. Saat yll\xE4tyksen n\xE4kyviin, kun klikkaat esinett\xE4.\n\r\nPelin
-    aloitussivulla voit valita, haluatko etsi\xE4 yll\xE4tyksi\xE4 vapaasti ilman
-    vihjeit\xE4 tai yksi kerrallaan vihjeiden avulla.\r\n\n</size>\n\n\r\n\r"
+  m_text: "\r<size=35>\n\n\n<b>Instruktioner </b>\n\nI de ovanliga h\xE4ndelsernas
+    hus h\xE4nder \xF6verraskande saker \xE5t vanliga f\xF6rem\xE5l. Du kan spela
+    spelet med musen eller tangenterna. \r\n\r\nDin uppgift \xE4r att leta efter
+    \xF6verraskningar i olika rum i huset. Du k\xE4nner igen \xF6verraskningen fr\xE5n
+    bubblan som dyker upp ovanf\xF6r f\xF6rem\xE5let. \xD6verraskningen dyker upp
+    n\xE4r du klickar p\xE5 f\xF6rem\xE5let. \r\n\r\nP\xE5 spelets startsida kan
+    du v\xE4lja om du vill leta efter \xF6verraskningar utan tips eller en i taget
+    med hj\xE4lp av tips. \n\n</size>\n\n\r\n\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17421,7 +17422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1346212331}
   spriteSize: {fileID: 2045500545}
-  SpriteToFitTo: {fileID: 0}
+  SpriteToFitTo: {fileID: 23164609}
   atticPosition: 0
 --- !u!1 &1356399187
 GameObject:
@@ -18283,7 +18284,7 @@ MonoBehaviour:
   openHint: {fileID: 484716387}
   hint: {fileID: 1483635634}
   _source: {fileID: 1403676848}
-  questionClip: {fileID: 8300000, guid: 5764868d862d95c489f5b45e9f49e78d, type: 3}
+  questionClip: {fileID: 8300000, guid: 75c2d561febd1c749a945e47bd8c0387, type: 3}
   answerClip: {fileID: 1483635634}
   isRotated: 0
 --- !u!82 &1403676848
@@ -18296,8 +18297,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5764868d862d95c489f5b45e9f49e78d, type: 3}
-  m_Resource: {fileID: 8300000, guid: 5764868d862d95c489f5b45e9f49e78d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 75c2d561febd1c749a945e47bd8c0387, type: 3}
+  m_Resource: {fileID: 8300000, guid: 75c2d561febd1c749a945e47bd8c0387, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -21928,7 +21929,7 @@ SpriteRenderer:
   m_Size: {x: 14.15, y: 7.57}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1768068213
@@ -24994,7 +24995,7 @@ MonoBehaviour:
   openHint: {fileID: 1100237923}
   hint: {fileID: 624283473}
   _source: {fileID: 1917308672}
-  questionClip: {fileID: 8300000, guid: fd4cbf247f5ad4e4c9e2f147c5f3b352, type: 3}
+  questionClip: {fileID: 8300000, guid: 78412e3ea1680434d90b9afb998f15ff, type: 3}
   answerClip: {fileID: 624283473}
   isRotated: 0
 --- !u!82 &1917308672
@@ -25007,8 +25008,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fd4cbf247f5ad4e4c9e2f147c5f3b352, type: 3}
-  m_Resource: {fileID: 8300000, guid: fd4cbf247f5ad4e4c9e2f147c5f3b352, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 78412e3ea1680434d90b9afb998f15ff, type: 3}
+  m_Resource: {fileID: 8300000, guid: 78412e3ea1680434d90b9afb998f15ff, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

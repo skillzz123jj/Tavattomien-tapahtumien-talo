@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Bat
   m_EditorClassIdentifier: 
   itemName: Bat
-  whatKind: "py\xF6re\xE4"
-  where: "vintill\xE4"
-  whatDescription: "ampiaispes\xE4"
   floor: 5
-  whatKindClip: {fileID: 8300000, guid: 2078d6a65c1117746ada90569a348bf1, type: 3}
-  whereClip: {fileID: 8300000, guid: d86e771b48f914742a67f3b1ad83cb5c, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: cf7eea9fa87eacf48aa6b4db341cf266, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 0f6fb80ca3da53f47b325f228f87c665, type: 3}
+  whereClip: {fileID: 8300000, guid: 44d615a121eb17e4599000fd3b66d970, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 6a631bccf0bbeea4490e16b73974ad46, type: 3}
+  discoverable: 0

@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Mouse
   m_EditorClassIdentifier: 
   itemName: Mouse
-  whatKind: punottu
-  where: "vintill\xE4"
-  whatDescription: pyykkikori
   floor: 5
-  whatKindClip: {fileID: 8300000, guid: 091fa202969ba434a9c8504b39d42409, type: 3}
-  whereClip: {fileID: 8300000, guid: d86e771b48f914742a67f3b1ad83cb5c, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 73eb2103cf80d9b43bb3e47f4992dfae, type: 3}
+  whatKindClip: {fileID: 8300000, guid: d1320327cfb305b4e9c9f69fd280213b, type: 3}
+  whereClip: {fileID: 8300000, guid: 44d615a121eb17e4599000fd3b66d970, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: e0ae95435701578429a0305f82a84799, type: 3}
+  discoverable: 0

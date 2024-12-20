@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Diving
   m_EditorClassIdentifier: 
   itemName: Diving
-  whatKind: kulmikas
-  where: kylpyhuoneessa
-  whatDescription: pyykinpesukone
   floor: 3
-  whatKindClip: {fileID: 8300000, guid: c5ffc74e1d6554e4b97d5f4f161c17a0, type: 3}
-  whereClip: {fileID: 8300000, guid: bfa7978585374f345a7543490bb84ede, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 9b54b0e07e2756a448a457a0e7b2f6c5, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 14a59da179f8cba4d84c6adc8bc7ac0b, type: 3}
+  whereClip: {fileID: 8300000, guid: 3905b224594a154448dd9a4070b70e8b, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: a7a48f079282522458b5dc59e39ac72a, type: 3}
+  discoverable: 0

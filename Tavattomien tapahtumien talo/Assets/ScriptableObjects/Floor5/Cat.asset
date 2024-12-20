@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Cat
   m_EditorClassIdentifier: 
   itemName: Cat
-  whatKind: "p\xF6rr\xF6inen"
-  where: makuuhuoneessa
-  whatDescription: kissa
   floor: 4
-  whatKindClip: {fileID: 8300000, guid: 3d4403c027defff4c8bd4ca8d8fd3fa4, type: 3}
-  whereClip: {fileID: 8300000, guid: fba09fd4de64ccc45a56aa001c0ed74d, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 4395a27dee136fe43a7e06f868ef0cda, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 27277bc6461e2294da051c004a010a14, type: 3}
+  whereClip: {fileID: 8300000, guid: 1c4dc287788e09443b00bc5588e5916b, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 2f0dfe4c718602c4e9345f9f8064890d, type: 3}
+  discoverable: 0

@@ -494,7 +494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.8, y: 371.4}
+  m_AnchoredPosition: {x: 101.81, y: 371.4}
   m_SizeDelta: {x: 214.63, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &225393500
@@ -517,7 +517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tavattomien \n  tapahtumien \n    talo"
+  m_text: " \rOvanliga \n h\xE4ndelsers \n  hus "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1821,9 +1821,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Talossa tapahtuu hassunkurisia ja yll\xE4tt\xE4vi\xE4 asioita!\n\nEtsi
-    yll\xE4tyksi\xE4 vapaasti ilman vihjeit\xE4 tai yksi kerrallaan vihjeiden perusteella.
-    Voit pelata peli\xE4 hiirell\xE4 tai painikkeilla.\n"
+  m_text: "Lustiga och \xF6verraskande saker h\xE4nder i huset! \n\nLeta efter \xF6verraskningar
+    fritt utan tips eller en i taget med hj\xE4lp av tips. Du kan spela spelet med
+    musen eller tangenterna. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5010,8 +5010,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a03ae6bcc2aed5942bd9fa365e769420, type: 3}
-  m_Resource: {fileID: 8300000, guid: a03ae6bcc2aed5942bd9fa365e769420, type: 3}
+  m_audioClip: {fileID: 8300000, guid: efcb5868af913594c87f27f0f69a52ce, type: 3}
+  m_Resource: {fileID: 8300000, guid: efcb5868af913594c87f27f0f69a52ce, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6131,13 +6131,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n<size=35>\n\n<b>Ohjeet</b>\n\r\nTavattomien tapahtumien talossa tavallisille
-    esineille tapahtuu yll\xE4tt\xE4vi\xE4 asioita. Voit pelata peli\xE4 hiirell\xE4
-    tai painikkeilla.\n\r\nTeht\xE4v\xE4n\xE4si on etsi\xE4 yll\xE4tyksi\xE4 talon
-    eri huoneista. Tunnistat yll\xE4tyksen esineen p\xE4\xE4lle ilmestyv\xE4st\xE4
-    kuplasta. Saat yll\xE4tyksen n\xE4kyviin, kun klikkaat esinett\xE4.\n\r\nPelin
-    aloitussivulla voit valita, haluatko etsi\xE4 yll\xE4tyksi\xE4 vapaasti ilman
-    vihjeit\xE4 tai yksi kerrallaan vihjeiden avulla.\r\n\n</size>\n\n\r\n\r"
+  m_text: "<size=35>\n\n\n\n<b>Instruktioner </b>\n\nI de ovanliga h\xE4ndelsernas
+    hus h\xE4nder \xF6verraskande saker \xE5t vanliga f\xF6rem\xE5l. Du kan spela
+    spelet med musen eller tangenterna. \r\n\r\nDin uppgift \xE4r att leta efter
+    \xF6verraskningar i olika rum i huset. Du k\xE4nner igen \xF6verraskningen fr\xE5n
+    bubblan som dyker upp ovanf\xF6r f\xF6rem\xE5let. \xD6verraskningen dyker upp
+    n\xE4r du klickar p\xE5 f\xF6rem\xE5let. \r\n\r\nP\xE5 spelets startsida kan
+    du v\xE4lja om du vill leta efter \xF6verraskningar utan tips eller en i taget
+    med hj\xE4lp av tips. \n\n</size>\n\n\r\n\r\n\n\r\n\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

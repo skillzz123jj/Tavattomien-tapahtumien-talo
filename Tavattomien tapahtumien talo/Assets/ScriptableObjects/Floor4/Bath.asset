@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Bath
   m_EditorClassIdentifier: 
   itemName: Bath
-  whatKind: valkoinen
-  where: kylpyhuoneessa
-  whatDescription: kylpyamme
   floor: 3
-  whatKindClip: {fileID: 8300000, guid: 63cd16553cafb1747b26114000be472d, type: 3}
-  whereClip: {fileID: 8300000, guid: bfa7978585374f345a7543490bb84ede, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 3d25d4b86230ff74b9a0cd56e1e600a5, type: 3}
+  whatKindClip: {fileID: 8300000, guid: b7f27ea52a86d574e9cc6f24cf8d0b78, type: 3}
+  whereClip: {fileID: 8300000, guid: 3905b224594a154448dd9a4070b70e8b, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: c978c0535857c414caa884486d539a8e, type: 3}
+  discoverable: 0
