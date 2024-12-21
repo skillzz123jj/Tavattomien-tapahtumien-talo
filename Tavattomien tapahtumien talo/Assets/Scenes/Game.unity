@@ -5110,6 +5110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0abc9b203fc49484b896734d5931c0a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 9146802075735002454}
+  iterateItems: {fileID: 1751836665}
+  showHints: {fileID: 1610368226}
+  itemCount: {fileID: 481678002}
   items:
   - {fileID: 464254390}
   - {fileID: 1000057430}
@@ -5134,10 +5138,6 @@ MonoBehaviour:
   - {fileID: 1954986264}
   - {fileID: 1220925862}
   - {fileID: 2124497378}
-  gameOver: {fileID: 9146802075735002454}
-  iterateItems: {fileID: 1751836665}
-  showHints: {fileID: 1610368226}
-  itemCount: {fileID: 481678002}
   itemDiscovered: 0
   currentItem: {fileID: 0}
 --- !u!1 &477147652
@@ -17421,7 +17421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1346212331}
   spriteSize: {fileID: 2045500545}
-  SpriteToFitTo: {fileID: 0}
+  SpriteToFitTo: {fileID: 23164609}
   atticPosition: 0
 --- !u!1 &1356399187
 GameObject:
@@ -21928,7 +21928,7 @@ SpriteRenderer:
   m_Size: {x: 14.15, y: 7.57}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1768068213
