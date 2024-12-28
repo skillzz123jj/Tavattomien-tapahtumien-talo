@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Furnace
   m_EditorClassIdentifier: 
   itemName: Furnace
-  whatKind: "l\xE4mmin"
-  where: kellarissa
-  whatDescription: uuni
-  whatKindClip: {fileID: 8300000, guid: 2ed191bb5c757f44bb9acce9b6003ee1, type: 3}
-  whereClip: {fileID: 8300000, guid: aaaca878e7f64c04abab178f52378123, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: ef88b9e486b45ec4db050a52ec17eb7a, type: 3}
+  floor: 0
+  whatKindClip: {fileID: 8300000, guid: 3df34100e1214d34cb8c610a5db581b8, type: 3}
+  whereClip: {fileID: 8300000, guid: 4e8e9c61324e96842b394da12884e832, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: b06551169da0e3345a61bd5ea9ed3664, type: 3}
+  discoverable: 0

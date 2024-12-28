@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Potato
   m_EditorClassIdentifier: 
   itemName: Potato
-  whatKind: "sy\xF6t\xE4v\xE4"
-  where: "keitti\xF6ss\xE4"
-  whatDescription: peruna
   floor: 1
-  whatKindClip: {fileID: 8300000, guid: 2b7e75f23c8fae94991f34eef3964bbf, type: 3}
-  whereClip: {fileID: 8300000, guid: f687c347de5e7ee4298abf8759c87eed, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: e94ccc317c1109e45ab3c463b5acf2bc, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 6bcb533fe603c6e47be616439ddda6ff, type: 3}
+  whereClip: {fileID: 8300000, guid: 163f1f1ffd202764f8fbe197d95c58d2, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: e0b972e10b690d7499b609c89cc48dfc, type: 3}
+  discoverable: 0

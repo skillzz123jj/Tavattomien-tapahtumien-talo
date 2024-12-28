@@ -10,7 +10,6 @@ public class HandleItems : MonoBehaviour
     [SerializeField] private IterateButtons iterateItems;
     [SerializeField] private ShowHints showHints;
     [SerializeField] private TMP_Text itemCount;
-
     [SerializeField] public List<GameObject> items = new List<GameObject>();
     public bool itemDiscovered;
     public Items currentItem;
@@ -21,7 +20,7 @@ public class HandleItems : MonoBehaviour
         {     
             ResetItems();   
         }
-        itemCount.text =  $"Yllätyksiä jäljellä: {items.Count}";
+        itemCount.text =  $"Överraskningar kvar: {items.Count}";
 
     }
     //When an item has been discovered it gets removed from the item list and deactivated
@@ -36,7 +35,7 @@ public class HandleItems : MonoBehaviour
             discovered.GetComponent<BoxCollider2D>().enabled = false;
             discovered.GetComponent<AudioSource>().Play();
             itemAsset.discoverable = false;
-            itemCount.text = $"Yllätyksiä jäljellä: {items.Count}";
+            itemCount.text = $"Överraskningar kvar: {items.Count}";
 
             if (items.Count <= 0)
             {

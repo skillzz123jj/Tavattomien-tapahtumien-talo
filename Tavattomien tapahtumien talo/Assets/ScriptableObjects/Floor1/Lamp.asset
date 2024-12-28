@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Lamp
   m_EditorClassIdentifier: 
   itemName: Lamp
-  whatKind: kirkas
-  where: kellarissa
-  whatDescription: lamppu
-  whatKindClip: {fileID: 8300000, guid: 39918ce276e5b9549837183d20ddf6d2, type: 3}
-  whereClip: {fileID: 8300000, guid: aaaca878e7f64c04abab178f52378123, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: e76c4c53ff818a24c9ed793d6454e451, type: 3}
+  floor: 0
+  whatKindClip: {fileID: 8300000, guid: 71c87912374db6d408c518e9ee149c21, type: 3}
+  whereClip: {fileID: 8300000, guid: 4e8e9c61324e96842b394da12884e832, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: ffb8d1aacbedd224f84a2fb7ff21248a, type: 3}
+  discoverable: 0

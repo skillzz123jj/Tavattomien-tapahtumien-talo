@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: TV
   m_EditorClassIdentifier: 
   itemName: TV
-  whatKind: "viihdytt\xE4v\xE4"
-  where: olohuoneessa
-  whatDescription: televisio
   floor: 2
-  whatKindClip: {fileID: 8300000, guid: 2a6b04bb4d9549641aa656dbf8dedf62, type: 3}
-  whereClip: {fileID: 8300000, guid: f1532a1554400464ba6e1ec2b3997b84, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 8919856ee0e5cbb49993c4029dfa2af6, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 485c089e3471deb40acb9f5f08599f92, type: 3}
+  whereClip: {fileID: 8300000, guid: f0be3703aecdbfe45b9e9c69d547456d, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 37d8687fb9b848341b47c3fa2550dff3, type: 3}
+  discoverable: 0

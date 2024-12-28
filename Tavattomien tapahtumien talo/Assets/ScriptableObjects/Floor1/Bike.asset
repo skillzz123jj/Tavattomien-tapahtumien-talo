@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Bike
   m_EditorClassIdentifier: 
   itemName: Bike
-  whatKind: "rikkin\xE4inen"
-  where: kellarissa
-  whatDescription: "polkupy\xF6r\xE4"
-  whatKindClip: {fileID: 8300000, guid: acfc84df00d524e4f8474d8aaa9892b7, type: 3}
-  whereClip: {fileID: 8300000, guid: aaaca878e7f64c04abab178f52378123, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: e3b8b53ce7782494a929991f49663613, type: 3}
+  floor: 0
+  whatKindClip: {fileID: 8300000, guid: c26a919da9d48b44bacdf9f6826a4dda, type: 3}
+  whereClip: {fileID: 8300000, guid: 4e8e9c61324e96842b394da12884e832, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 289c600cbcab49548b9c60b57f2a3162, type: 3}
+  discoverable: 0

@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Skeleton
   m_EditorClassIdentifier: 
   itemName: Skeleton
-  whatKind: avattava
-  where: olohuoneessa
-  whatDescription: kaappi
   floor: 2
-  whatKindClip: {fileID: 8300000, guid: 31a9c908d9cd67a4ba2086cd0db1e2a7, type: 3}
-  whereClip: {fileID: 8300000, guid: f1532a1554400464ba6e1ec2b3997b84, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 18e3b2a6081c16a419fd9e35ec6bd5fa, type: 3}
+  whatKindClip: {fileID: 8300000, guid: d770184910e81994a8edbc009df55ca1, type: 3}
+  whereClip: {fileID: 8300000, guid: f0be3703aecdbfe45b9e9c69d547456d, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 4b21c4f4df7ac904089a35f3b5ae73a8, type: 3}
+  discoverable: 0

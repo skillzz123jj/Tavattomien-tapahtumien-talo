@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Couch
   m_EditorClassIdentifier: 
   itemName: Couch
-  whatKind: "pehme\xE4"
-  where: olohuoneessa
-  whatDescription: tyyny
   floor: 2
-  whatKindClip: {fileID: 8300000, guid: dd3901ade491368419af30159a152be4, type: 3}
-  whereClip: {fileID: 8300000, guid: f1532a1554400464ba6e1ec2b3997b84, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 57b6b4bdb9422e347bb5ca3a4c84b98f, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 40921db6eb5dd4b47a4b001af873141f, type: 3}
+  whereClip: {fileID: 8300000, guid: f0be3703aecdbfe45b9e9c69d547456d, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 52333a03d11fd7d4b912306b13bb3c45, type: 3}
+  discoverable: 0

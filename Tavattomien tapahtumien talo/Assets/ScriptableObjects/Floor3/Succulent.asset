@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Succulent
   m_EditorClassIdentifier: 
   itemName: Succulent
-  whatKind: "piikik\xE4s"
-  where: olohuoneessa
-  whatDescription: kaktus
   floor: 2
-  whatKindClip: {fileID: 8300000, guid: 3fa845199a145294d98fc7a20abb5c95, type: 3}
-  whereClip: {fileID: 8300000, guid: f1532a1554400464ba6e1ec2b3997b84, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 54c3b45f18be6014587f23a3a7e5e7c8, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 0dae751fdfd3e6349a84715ceed7ab32, type: 3}
+  whereClip: {fileID: 8300000, guid: f0be3703aecdbfe45b9e9c69d547456d, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 7fd01c2a54b48644780b1c2cd26488e3, type: 3}
+  discoverable: 0

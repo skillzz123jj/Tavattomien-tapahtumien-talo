@@ -13,11 +13,8 @@ MonoBehaviour:
   m_Name: Plate
   m_EditorClassIdentifier: 
   itemName: Plate
-  whatKind: "litte\xE4"
-  where: "keitti\xF6ss\xE4"
-  whatDescription: lautanen
   floor: 1
-  whatKindClip: {fileID: 8300000, guid: 21864ad5e16239246b1128c6ddcb55b1, type: 3}
-  whereClip: {fileID: 8300000, guid: f687c347de5e7ee4298abf8759c87eed, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: b512b97cf9e0c8a47869210443f91dae, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 8f24519109c4fc2429a8618f7da64296, type: 3}
+  whereClip: {fileID: 8300000, guid: 163f1f1ffd202764f8fbe197d95c58d2, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 2346d25a5ad9e0145bacc82c9c0ebff3, type: 3}
   discoverable: 0

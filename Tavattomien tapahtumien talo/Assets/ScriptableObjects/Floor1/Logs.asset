@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Logs
   m_EditorClassIdentifier: 
   itemName: Pile
-  whatKind: puinen
-  where: kellarissa
-  whatDescription: halkopino
-  whatKindClip: {fileID: 8300000, guid: 1d976b6ad8b464941b4793844c04a181, type: 3}
-  whereClip: {fileID: 8300000, guid: aaaca878e7f64c04abab178f52378123, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 4e70ef0592fce474593d354ff9a9a8e7, type: 3}
+  floor: 0
+  whatKindClip: {fileID: 8300000, guid: 6b0fb1393531b1546909951928446161, type: 3}
+  whereClip: {fileID: 8300000, guid: 4e8e9c61324e96842b394da12884e832, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: b8c3bd66dd582c44cb9f53857577c56a, type: 3}
+  discoverable: 0

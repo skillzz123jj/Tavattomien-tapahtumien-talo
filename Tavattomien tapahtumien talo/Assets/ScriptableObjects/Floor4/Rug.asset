@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Rug
   floor: 3
-  whatKindClip: {fileID: 8300000, guid: d2adb9424eb300b44a1d0101568157d0, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 85c4095439a637649b33835ed905c397, type: 3}
   whereClip: {fileID: 8300000, guid: 3905b224594a154448dd9a4070b70e8b, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 477dc72bc9b89d9479bbc0c18188733b, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: b7f27ea52a86d574e9cc6f24cf8d0b78, type: 3}
   discoverable: 0

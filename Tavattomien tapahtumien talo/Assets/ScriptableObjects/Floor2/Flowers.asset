@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Flowers
   m_EditorClassIdentifier: 
   itemName: Flowers
-  whatKind: kaunis
-  where: "keitti\xF6ss\xE4"
-  whatDescription: kukka
   floor: 1
-  whatKindClip: {fileID: 8300000, guid: 73e0f32c16d825e42967af336b24108a, type: 3}
-  whereClip: {fileID: 8300000, guid: f687c347de5e7ee4298abf8759c87eed, type: 3}
-  whatDescriptionClip: {fileID: 8300000, guid: 70e3fcfb6c63fb846afe341dbb656a7d, type: 3}
+  whatKindClip: {fileID: 8300000, guid: 1cbfd9ea333854442a5174d9bc2ca30c, type: 3}
+  whereClip: {fileID: 8300000, guid: 163f1f1ffd202764f8fbe197d95c58d2, type: 3}
+  whatDescriptionClip: {fileID: 8300000, guid: 02c72436a79905d46870847f5b92eca7, type: 3}
+  discoverable: 0
