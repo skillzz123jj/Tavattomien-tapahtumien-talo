@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f56bb73ada0883241a7a99ffca4fd788, type: 3}
   m_Name: Logs
   m_EditorClassIdentifier: 
-  itemName: Pile
+  itemName: Logs
   floor: 0
   whatKindClip: {fileID: 8300000, guid: 6b0fb1393531b1546909951928446161, type: 3}
   whereClip: {fileID: 8300000, guid: 4e8e9c61324e96842b394da12884e832, type: 3}
