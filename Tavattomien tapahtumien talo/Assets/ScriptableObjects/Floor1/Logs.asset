@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f56bb73ada0883241a7a99ffca4fd788, type: 3}
   m_Name: Logs
   m_EditorClassIdentifier: 
-  itemName: Pile
-  whatKind: puinen
-  where: kellarissa
-  whatDescription: halkopino
+  itemName: Logs
+  floor: 0
   whatKindClip: {fileID: 8300000, guid: 1d976b6ad8b464941b4793844c04a181, type: 3}
   whereClip: {fileID: 8300000, guid: aaaca878e7f64c04abab178f52378123, type: 3}
   whatDescriptionClip: {fileID: 8300000, guid: 4e70ef0592fce474593d354ff9a9a8e7, type: 3}
+  discoverable: 0
