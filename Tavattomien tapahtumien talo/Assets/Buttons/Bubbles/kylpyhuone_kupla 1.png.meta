@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kylpyhuone_kupla 1_0: -8314236511588212315
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VihjeidenPerusteella01_0: -3286713042961823037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

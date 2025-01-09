@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vintti_kupla 1_0: 7988180334703899511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
