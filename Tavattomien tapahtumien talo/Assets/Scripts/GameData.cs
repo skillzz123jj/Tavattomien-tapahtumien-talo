@@ -4,7 +4,7 @@ public class GameData
 
     public bool isAudioMuted { get; set; }
     public bool hintsEnabled { get; set; }
-
+    public bool gameOver { get; set; }
     private GameData() { }
 
     //Public method to access the instance
