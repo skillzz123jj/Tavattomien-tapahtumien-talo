@@ -17,6 +17,7 @@ public class HandleItems : MonoBehaviour
 
     private void Start()
     {
+        GameData.Instance.gameOver = false;
         if (GameData.Instance.hintsEnabled)
         {     
             ResetItems();   
@@ -53,6 +54,7 @@ public class HandleItems : MonoBehaviour
 
     void AllItemsDiscovered()
     {
+            GameData.Instance.gameOver = true;
             gameOver.SetActive(true);
             iterateItems.enabled = false;   
     }

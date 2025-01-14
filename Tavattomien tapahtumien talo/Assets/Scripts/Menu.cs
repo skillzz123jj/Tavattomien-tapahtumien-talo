@@ -86,6 +86,14 @@ public class Menu : MonoBehaviour
 
         instructionsCoroutine = null;
     }
+
+    public void ManageButtons(IterateButtons script)
+    {
+        if (!GameData.Instance.gameOver)
+        {
+            script.enabled = true;
+        }
+    }
     public void PreventInteraction()
     {
         if (CheckInput())
